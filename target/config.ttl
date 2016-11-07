@@ -1,0 +1,21 @@
+PREFIX ex: <http://example.org/> 
+PREFIX foaf: <http://xmlns.com/foaf/0.1/> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX container: <http://scc-cnor-129py5.scc.kit.edu:8080/marmotta/ldp/ldbc/>
+PREFIX shell: <http://scc-cnor-129py5.scc.kit.edu:8080/marmotta/resource/sensor/AdministrationShell/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+shell:1 a <http://km.aifb.kit.edu/projects/step/AdministrationShell>;
+ 			foaf:name "AdinistrationShell for Sensor - Instance 1";
+            ex:hasInputParameter [
+            		ex:hasNamespace "http://scc-cnor-129py5.scc.kit.edu:8080/marmotta/ldp/ldbc/"^^xsd:string ;
+              		ex:hasMode <http://www.bluetooth.com/what-is-bluetooth-technology/bluetooth-technology-basics/low-energy> ;
+					ex:hasDevice container:B0-B4-48-BF-B4-82 ;
+                    ex:hasLogLevel "debug"^^xsd:string ;
+					ex:hasLdpContainer <http://scc-cnor-129py5.scc.kit.edu:8080/marmotta/ldp/ldbc> ;
+					ex:hasUsername "admin" ;
+					ex:hasPassword "pass123" 
+              ] .
+              
+container:B0-B4-48-BF-B4-82 ex:hasMAC "B0:B4:48:BF:B4:82"^^xsd:string .

@@ -17,6 +17,8 @@ import javax.xml.transform.stream.StreamResult;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.rdf.model.RDFNode;
+import org.apache.jena.rdf.model.RDFReader;
+import org.apache.jena.rdf.model.RDFWriter;
 import org.apache.jena.rdf.model.Resource;
 import org.apache.jena.vocabulary.RDF;
 import org.w3c.dom.DOMException;
@@ -28,6 +30,7 @@ public class WebAPIDescriptions {
 	
 	public WebAPIDescriptions() {
 		model = ModelFactory.createDefaultModel();
+		model.setNsPrefix("", "http://aifb.kit.edu/step");
 		
 		// this entity
 		Resource _a = model.createResource("");
@@ -38,8 +41,13 @@ public class WebAPIDescriptions {
 	
 	public String getXMLData() {
 		
+		//RDFReader reader = model.getReader();
+		
+		//TODO: Bug: relative URIs not supported in this configuration
+		RDFWriter writer = model.getWriter("RDF/XML");
+		writer.setProperty("relativeURIs", "same-document");
 		StringWriter out = new StringWriter();
-		model.write(out, "RDF/XML-ABBREV");
+		model.write(out, "RDF/XML");
 		
 		return out.toString();
 	}
@@ -62,7 +70,10 @@ public class WebAPIDescriptions {
 			head.appendChild(title);
 
 			Element body = doc.createElement("body");
-			body.setTextContent(getXMLData());
+			//TODO: Bug in XML+RDF output: relative URI <> not supported in XML
+			//body.setTextContent(getXMLData());
+			body.setTextContent(getTurtle());
+			
 			rootElement.appendChild(body);
 			
 			doc.appendChild(rootElement);

@@ -314,7 +314,7 @@ public class LinkedDataPlatformConnector implements DatabaseConnector {
 
 
 
-		// Send post request
+		// Send put request
 		con.setDoOutput(true);
 		DataOutputStream wr = new DataOutputStream(con.getOutputStream());
 		String body = convertJenaModelToTurtle(new_data);

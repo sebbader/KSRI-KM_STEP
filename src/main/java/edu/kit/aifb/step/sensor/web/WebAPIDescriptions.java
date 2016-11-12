@@ -70,7 +70,7 @@ public class WebAPIDescriptions {
 			head.appendChild(title);
 
 			Element body = doc.createElement("body");
-			//TODO: Bug in XML+RDF output: relative URI <> not supported in XML
+			//TODO: Bug in XML+RDF output: relative URI as <> not supported in XML
 			//body.setTextContent(getXMLData());
 			body.setTextContent(getTurtle());
 			

@@ -7,12 +7,15 @@ import javax.ws.rs.core.Application;
 import javax.ws.rs.core.MediaType;
 import org.json.JSONObject;
 
+import io.swagger.annotations.Api;
+
 /**
  * Class handling RESTful requests on http://<host>:<port>/step/wrapper/sensor resource
  * @author sba
  *
  */
 @Path(value = "/sensor")
+@Api(value = "Sensor", description = "APIs the sensor")
 public class AdministrationShellWebAPI extends Application{
 	
 	WebAPIDescriptions description = new WebAPIDescriptions();

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+<link href="css/font-awesome.css" rel="stylesheet">
+<link href="css/slideout.css" rel="stylesheet">
+<link href="css/style1.css" rel="stylesheet">
+<link href="css/main.css" rel="stylesheet">
+<title>ArDe</title>
+<!-- Bootstrap core CSS -->
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/jasny-bootstrap.min.css" rel="stylesheet">
+<link href="css/animate.css" rel="stylesheet">
+
+<!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+	<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+<link rel="stylesheet" type="text/css"
+	href="chrome-extension://pkehgijcmpdhfbdbbnkijodmdjhbjlgp/skin/socialwidgets.css">
+
+</head>
+<body>
+	<nav id="menu" class=" navmenu-default menu slideout-menu offcanvas-sm">
+		<header>
+			<h2 class="menu-header">Navigation:</h2>
+			<ul class="nav navmenu-nav menu-text">
+				<li class="active"><a href="index.html" id="main-page"><i
+						class="fa fa-home fa-11x" id="home"></i> Home</a></li>
+				<li><a href="#" id="ueber-mich"><i
+						class="fa fa-book fa-11x" id="book"></i> Button</a></li>
+				<li><a href="#" id="leistungen"><i
+						class="fa fa-star fa-11x" id="star"></i> Button</a> </li>
+				<li><a href="#" id="artikel"><i
+						class="fa fa-comments fa-11x" id="comments"></i> Buttons</a> </li>
+			</ul>
+			<div>
+				<hr>
+				<div class="text-center center-block">
+					<a href="" target="blank"><i id="social-fb"
+						class="fa fa-facebook fa-3x social"></i></a> <a href="" target="blank"><i
+						id="social-vk" class="fa fa-vk fa-3x social"></i></a> <a href=""><i
+						id="social-em" class="fa fa-envelope fa-3x social"></i></a>
+				</div>
+				<hr>
+			</div>
+		</header>
+	</nav>
+
+	<main id="panel" class="panel slideout-panel"> <header
+		class="panel-header">
+		<button class="btn-hamburger js-slideout-toggle"></button>
+		<h1 class="title">Text → JSON-LD</h1>
+		<div class="box">
+			<div class="thumbnail task-style">
+				<form method="post" id="result_form" action="">
+					<div class="row">
+						<div class="form-group col-xs-12 col-sm-12 col-md-12 col-lg-12">
+							<label for="comment">Text:</label>
+							<textarea id="txtArea" id="wq" style="max-width: 100%" class="form-control" rows="5" id="comment"></textarea>
+						</div>
+					</div>
+					<div class="row">
+						<div class="form-group col-xs-12 col-sm-12 col-md-12 col-lg-12"
+							role="form">
+							<label for="txtBox1">Surname</label>
+							<input id="txtBox1" id="ant" class="form-control"
+								placeholder="1. Box" />
+						</div>
+						<div class="form-group col-xs-12 col-sm-12 col-md-12 col-lg-12"
+							role="form">
+							<label for="txtBox2">Name</label>
+							<input id="txtBox2" id="ant" class="form-control"
+								placeholder="2. Box" />
+						</div>
+						<div class="form-group col-xs-12 col-sm-12 col-md-12 col-lg-12"
+							role="form">
+							<label for="txtBox3">How old:</label>
+							<input id="txtBox3" id="ant" class="form-control"
+								placeholder="3. Box" />
+						</div>
+						<div class="form-group col-xs-12 col-sm-12 col-md-12 col-lg-12"
+							role="form">
+							<label for="txtBox4">Nationality:</label>
+							<input id="txtBox4" id="ant" class="form-control"
+								placeholder="4. Box" />
+						</div>
+					</div>
+					<p>
+					<div class="form-group " role="form">
+						<div class="btn-group">
+							<input type="button" class="btn btn-danger" value="Clean"
+								onclick="javascript:eraseText();" />
+						</div>
+						<div class="btn-group">
+							<input name="senden" id="send" type="submit" value="Send"
+								class="btn btn-primary" />
+						</div>
+					</div>
+					</p>
+				</form>
+			</div>
+		</div>
+	</header> </main>
+	<script
+		src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/jasny-bootstrap.min.js"></script>
+	<script src="js/animations.js"></script>
+	<script src="js/slideout.min.js"></script>
+	<script type="text/javascript"
+		src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_SVG"></script>
+	<!--Fürs Menu -->
+	<script>
+		var slideout = new Slideout({
+			'panel' : document.getElementById('panel'),
+			'menu' : document.getElementById('menu'),
+			'padding' : 256,
+			'tolerance' : 70
+		});
+	</script>
+	<!--Für die Menus Taste -->
+	<script>
+		window.onload = function() {
+			document.querySelector('.js-slideout-toggle').addEventListener(
+					'click', function() {
+						slideout.toggle();
+					});
+		};
+	</script>
+
+	<script>
+		function eraseText() {
+			document.getElementById("txtArea").value = "";
+			document.getElementById("txtBox1").value = "";
+			document.getElementById("txtBox2").value = "";
+			document.getElementById("txtBox3").value = "";
+			document.getElementById("txtBox4").value = "";
+		}
+	</script>
+
+	<script src="app/aufgabeKlausurajax.js"></script>
+</body>

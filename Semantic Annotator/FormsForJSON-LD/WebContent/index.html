@@ -93,25 +93,27 @@
 					<p>
 					<div class="form-group " role="form">
 						<div class="btn-group">
-							<input type="button" class="btn btn-danger" value="Clean"
+							<input name ="cleanButton" id="clean" type="button" value="Clean" class="btn btn-danger" 
 								onclick="javascript:eraseText();" />
 						</div>
 						<div class="btn-group">
-							<input name="sendButton" id="send" type="submit" value="Send"
-								class="btn btn-primary" onclick="javascript:DoJSONLD();" />
+							<input name="sendButton" id="send" type="button" value="Send" class="btn btn-primary" 
+							onclick="javascript:SendPost();"
+							 />
 						</div>
 					</div>
-					</p>
+					
 				</form>
 			</div>
 		</div>
 	</header> </main>
-	<script
+	<!-- <script
 		src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<script src="js/bootstrap.js"></script>
+	<script src="js/bootstrap.js"></script> -->
 	<script src="js/jasny-bootstrap.min.js"></script>
 	<script src="js/animations.js"></script>
 	<script src="js/slideout.min.js"></script>
+	<script src="js/jquery-3.2.0.min.js"></script>
 	<script type="text/javascript"
 		src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_SVG"></script>
 	<!--Fürs Menu -->
@@ -123,7 +125,7 @@
 			'tolerance' : 70
 		});
 	</script>
-	<!--Für die Menus Taste -->
+	<!--For menu's buttons -->
 	<script>
 		window.onload = function() {
 			document.querySelector('.js-slideout-toggle').addEventListener(
@@ -145,18 +147,43 @@
 	<script>
 		var jsonld = require('jsonld');
 		var doc = {
-				  "http://schema.org/name": "Manu Sporny",
-				  "http://schema.org/url": {"@id": "http://manu.sporny.org/"},
-				  "http://schema.org/image": {"@id": "http://manu.sporny.org/images/manu.png"}
-				};
-				var context = {
-				  "name": "http://schema.org/name",
-				  "homepage": {"@id": "http://schema.org/url", "@type": "@id"},
-				  "image": {"@id": "http://schema.org/image", "@type": "@id"}
-				};
+			"http://schema.org/name" : "Manu Sporny",
+			"http://schema.org/url" : {
+				"@id" : "http://manu.sporny.org/"
+			},
+			"http://schema.org/image" : {
+				"@id" : "http://manu.sporny.org/images/manu.png"
+			}
+		};
+		var context = {
+			"name" : "http://schema.org/name",
+			"homepage" : {
+				"@id" : "http://schema.org/url",
+				"@type" : "@id"
+			},
+			"image" : {
+				"@id" : "http://schema.org/image",
+				"@type" : "@id"
+			}
+		};
 
-		function DoJSONLD() {}
+		function DoJSONLD() {
+		}
 	</script>
-
-	<script src="app/aufgabeKlausurajax.js"></script>
+	<!-- AJAX request -->
+	<script>
+		function SendPost() {
+			$.post("http://localhost:8080/semantic-annotator/application/json-ld", {
+				Text : document.getElementById("txtArea").value,
+				Surname : document.getElementById("txtBox1").value,
+				Name : document.getElementById("txtBox2").value,
+				HowOld : document.getElementById("txtBox3").value,
+				Nationality: document.getElementById("txtBox4").value
+			}, onAjaxSuccess);
+		}
+		function onAjaxSuccess(data) {
+			//do something on the main webpage
+			alert(data);
+		}
+	</script>
 </body>

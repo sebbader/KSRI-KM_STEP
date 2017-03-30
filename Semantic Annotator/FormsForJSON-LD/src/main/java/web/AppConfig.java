@@ -7,7 +7,11 @@ import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;
 
 
+<<<<<<< HEAD
 @ApplicationPath("/test")
+=======
+@ApplicationPath("/")
+>>>>>>> refs/remotes/origin/master
 public class AppConfig extends Application {
 	
 

@@ -28,6 +28,7 @@ public class JSONParser {
 	}
 
 	@POST
+<<<<<<< HEAD
 //	@Produces("application/json-ld")
 //	@Consumes(MediaType.TEXT_PLAIN)
 	public String parseJSONLD(String text) throws IOException, JsonLdError {
@@ -53,6 +54,32 @@ public class JSONParser {
 		// Print out the result (or don't, it's your call!)
 		//return JsonUtils.toPrettyString(compact);*/
 		return "hui";
+=======
+	@Produces("application/json-ld")
+	@Consumes(MediaType.TEXT_PLAIN)
+	public String parseJSONLD(String text) throws IOException, JsonLdError {
+		
+		// Open a valid json(-ld) input file
+		InputStream inputStream = new ByteArrayInputStream(text.getBytes(StandardCharsets.UTF_8));
+		
+		// Read the file into an Object (The type of this object will be a List, Map, String, Boolean,
+		// Number or null depending on the root object in the file).
+		Object jsonObject = JsonUtils.fromInputStream(inputStream);
+		
+		// Create a context JSON map containing prefixes and definitions
+		Map context = new HashMap();
+		
+		// Customise context...
+		// Create an instance of JsonLdOptions with the standard JSON-LD options
+		JsonLdOptions options = new JsonLdOptions();
+		
+		// Customise options...
+		// Call whichever JSONLD function you want! (e.g. compact)
+		Object compact = JsonLdProcessor.compact(jsonObject, context, options);
+		
+		// Print out the result (or don't, it's your call!)
+		return JsonUtils.toPrettyString(compact);
+>>>>>>> refs/remotes/origin/master
 	}
 	
 }

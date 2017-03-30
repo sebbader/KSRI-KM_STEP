@@ -3,11 +3,7 @@
         <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
-<<<<<<< HEAD
-        <property name="java-output-path" value="/FormsForJSON-LD1/build/classes"/>
-=======
         <property name="java-output-path" value="/Semantic Annotator_FormsForJSON-LD/build/classes"/>
->>>>>>> refs/remotes/origin/master
         <property name="context-root" value="semantic-annotator"/>
     </wb-module>
 </project-modules>

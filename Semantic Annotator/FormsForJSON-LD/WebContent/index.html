@@ -98,7 +98,7 @@
 						</div>
 						<div class="btn-group">
 							<input name="sendButton" id="send" type="button" value="Send" class="btn btn-primary" 
-							onclick="javascript:SendPost();"
+							onclick="javascript:sendPost();"
 							 />
 						</div>
 					</div>
@@ -134,7 +134,7 @@
 					});
 		};
 	</script>
-
+ 
 	<script>
 		function eraseText() {
 			document.getElementById("txtArea").value = "";
@@ -144,46 +144,19 @@
 			document.getElementById("txtBox4").value = "";
 		}
 	</script>
-	<script>
-		var jsonld = require('jsonld');
-		var doc = {
-			"http://schema.org/name" : "Manu Sporny",
-			"http://schema.org/url" : {
-				"@id" : "http://manu.sporny.org/"
-			},
-			"http://schema.org/image" : {
-				"@id" : "http://manu.sporny.org/images/manu.png"
-			}
-		};
-		var context = {
-			"name" : "http://schema.org/name",
-			"homepage" : {
-				"@id" : "http://schema.org/url",
-				"@type" : "@id"
-			},
-			"image" : {
-				"@id" : "http://schema.org/image",
-				"@type" : "@id"
-			}
-		};
-
-		function DoJSONLD() {
-		}
-	</script>
+	
 	<!-- AJAX request -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 	<script>
-		function SendPost() {
-			$.post("http://localhost:8080/semantic-annotator/application/json-ld", {
-				Text : document.getElementById("txtArea").value,
-				Surname : document.getElementById("txtBox1").value,
-				Name : document.getElementById("txtBox2").value,
-				HowOld : document.getElementById("txtBox3").value,
-				Nationality: document.getElementById("txtBox4").value
-			}, onAjaxSuccess);
-		}
-		function onAjaxSuccess(data) {
-			//do something on the main webpage
-			alert(data);
-		}
+		function sendPost() {
+			$.post("test/jsonld-parser",
+			        {
+			          name: "Donald Duck",
+			          city: "Duckburg"
+			        },
+			        function(data,status){
+			            alert("Data: " + data + "\nStatus: " + status);
+			        });
+		};
 	</script>
 </body>

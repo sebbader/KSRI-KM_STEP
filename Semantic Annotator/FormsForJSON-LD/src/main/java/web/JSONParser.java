@@ -28,12 +28,12 @@ public class JSONParser {
 	}
 
 	@POST
-	@Produces("application/json-ld")
-	@Consumes(MediaType.TEXT_PLAIN)
+//	@Produces("application/json-ld")
+//	@Consumes(MediaType.TEXT_PLAIN)
 	public String parseJSONLD(String text) throws IOException, JsonLdError {
 		
 		// Open a valid json(-ld) input file
-		InputStream inputStream = new ByteArrayInputStream(text.getBytes(StandardCharsets.UTF_8));
+		/*InputStream inputStream = new ByteArrayInputStream(text.getBytes(StandardCharsets.UTF_8));
 		
 		// Read the file into an Object (The type of this object will be a List, Map, String, Boolean,
 		// Number or null depending on the root object in the file).
@@ -51,7 +51,8 @@ public class JSONParser {
 		Object compact = JsonLdProcessor.compact(jsonObject, context, options);
 		
 		// Print out the result (or don't, it's your call!)
-		return JsonUtils.toPrettyString(compact);
+		//return JsonUtils.toPrettyString(compact);*/
+		return "hui";
 	}
 	
 }

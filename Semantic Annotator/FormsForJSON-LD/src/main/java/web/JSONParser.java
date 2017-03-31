@@ -5,6 +5,7 @@ import java.nio.charset.StandardCharsets;
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.Map;
 
 import javax.ws.rs.Consumes;
@@ -13,6 +14,8 @@ import javax.ws.rs.POST;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
+
+import org.json.JSONObject;
 
 import com.github.jsonldjava.core.JsonLdError;
 import com.github.jsonldjava.core.JsonLdOptions;
@@ -31,16 +34,19 @@ public class JSONParser {
 //	@Produces("application/json-ld")
 //	@Consumes(MediaType.TEXT_PLAIN)
 	public String parseJSONLD(String text) throws IOException, JsonLdError {
-		
-		// Open a valid json(-ld) input file
-		/*InputStream inputStream = new ByteArrayInputStream(text.getBytes(StandardCharsets.UTF_8));
-		
-		// Read the file into an Object (The type of this object will be a List, Map, String, Boolean,
-		// Number or null depending on the root object in the file).
-		Object jsonObject = JsonUtils.fromInputStream(inputStream);
-		
+		Object jsonObject = JsonUtils.fromString(text);
 		// Create a context JSON map containing prefixes and definitions
-		Map context = new HashMap();
+		 Map<Object, Object> context = new HashMap<Object, Object>();
+		 context.put("@vocab", "http://schema.org");
+		 
+		 /*context.put(2, "point");
+		 Iterator<?> keys = jsonObject.keys();
+		 while( keys.hasNext() ) {
+			    String key = (String)keys.next();
+			    if ( jsonObject.get(key) instanceof JSONObject ) {
+			    	 context.put(jsonObject.get(key), jsonObject.get(key));
+			    }
+			}*/
 		
 		// Customise context...
 		// Create an instance of JsonLdOptions with the standard JSON-LD options
@@ -48,12 +54,10 @@ public class JSONParser {
 		
 		// Customise options...
 		// Call whichever JSONLD function you want! (e.g. compact)
-		Object compact = JsonLdProcessor.compact(jsonObject, context, options);
+		Map<String, Object> compact = JsonLdProcessor.compact(jsonObject, context, options);
 		
 		// Print out the result (or don't, it's your call!)
-		//return JsonUtils.toPrettyString(compact);*/
-		return "hui";
-
+		return JsonUtils.toPrettyString(compact);
 	}
 	
 }

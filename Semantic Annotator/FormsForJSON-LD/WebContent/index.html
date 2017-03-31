@@ -71,37 +71,36 @@
 					<div class="row">
 						<div class="form-group col-xs-12 col-sm-12 col-md-12 col-lg-12"
 							role="form">
-							<label for="txtBox1">Surname</label> <input id="txtBox1" id="ant"
+							<label for="txtBox1">Id</label> <input id="txtBox1" id="ant"
 								class="form-control" placeholder="1. Box" />
 						</div>
 						<div class="form-group col-xs-12 col-sm-12 col-md-12 col-lg-12"
 							role="form">
-							<label for="txtBox2">Name</label> <input id="txtBox2" id="ant"
+							<label for="txtBox2">Type</label> <input id="txtBox2" id="ant"
 								class="form-control" placeholder="2. Box" />
 						</div>
 						<div class="form-group col-xs-12 col-sm-12 col-md-12 col-lg-12"
 							role="form">
-							<label for="txtBox3">How old:</label> <input id="txtBox3"
+							<label for="txtBox3">Amount:</label> <input id="txtBox3"
 								id="ant" class="form-control" placeholder="3. Box" />
 						</div>
 						<div class="form-group col-xs-12 col-sm-12 col-md-12 col-lg-12"
 							role="form">
-							<label for="txtBox4">Nationality:</label> <input id="txtBox4"
+							<label for="txtBox4">Memo:</label> <input id="txtBox4"
 								id="ant" class="form-control" placeholder="4. Box" />
 						</div>
 					</div>
 					<p>
 					<div class="form-group " role="form">
 						<div class="btn-group">
-							<input name ="cleanButton" id="clean" type="button" value="Clean" class="btn btn-danger" 
-								onclick="javascript:eraseText();" />
+							<input name="cleanButton" id="clean" type="button" value="Clean"
+								class="btn btn-danger" onclick="javascript:eraseText();" />
 						</div>
 						<div class="btn-group">
-							<input name="sendButton" id="send" type="button" value="Send" class="btn btn-primary" 
-							onclick="javascript:sendPost();" />
+							<input name="sendButton" id="send" type="button" value="Send"
+								class="btn btn-primary" onclick="javascript:sendPost();" />
 						</div>
 					</div>
-					
 				</form>
 			</div>
 		</div>
@@ -133,7 +132,7 @@
 					});
 		};
 	</script>
- 
+
 	<script>
 		function eraseText() {
 			document.getElementById("txtArea").value = "";
@@ -145,18 +144,23 @@
 	</script>
 
 	<!-- AJAX request -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script
+		src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 	<script>
-		function sendPost() {
-			$.post("test/jsonld-parser",
-			        {
-			          name: "Donald Duck",
-			          city: "Duckburg"
-			        },
-			        function(data,status){
-			            alert("Data: " + data + "\nStatus: " + status);
-			        });
+	function sendPost ()
+	{
+		var formData = {
+	            "Text":$("#txtArea").val(),
+	            "Id":$("#txtBox1").val()
 		};
-
+		$.ajax({
+            url:'test/jsonld-parser', 
+            type:'POST',
+            data:JSON.stringify(formData),
+            success: function(res) {
+                alert(res);
+            }
+        });
+	}
 	</script>
 </body>

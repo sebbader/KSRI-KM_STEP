@@ -6,42 +6,42 @@ import time
 import argparse
 
 parser = argparse.ArgumentParser()
-parser.add_argument('host', action='store',help='MAC of BT device')
-#host = 'B0:B4:48:BC:CA:87'
+parser.add_argument('host', action='store', help='MAC of BT device')
+# host = 'B0:B4:48:BC:CA:87'
 
 
 parser.add_argument('-n', action='store', dest='count', default=0, type=int, help="Number of times to loop data")
-#count = 5
+# count = 5
 
-parser.add_argument('-t',action='store',type=float, default=5.0, help='time between polling')
-#t = 2.0
+parser.add_argument('-t', action='store', type=float, default=5.0, help='time between polling')
+# t = 2.0
 
-parser.add_argument('-T','--temperature', action="store_true",default=False)
-#temperature = False
+parser.add_argument('-T', '--temperature', action="store_true", default=False)
+# temperature = False
 
-parser.add_argument('-A','--accelerometer', action='store_true', default=False)
-#accelerometer = False
+parser.add_argument('-A', '--accelerometer', action='store_true', default=False)
+# accelerometer = False
 
-parser.add_argument('-H','--humidity', action='store_true', default=False)
-#humidity = True
+parser.add_argument('-H', '--humidity', action='store_true', default=False)
+# humidity = True
 
-parser.add_argument('-M','--magnetometer', action='store_true', default=False)
-#magnetometer = False
+parser.add_argument('-M', '--magnetometer', action='store_true', default=False)
+# magnetometer = False
 
-parser.add_argument('-B','--barometer', action='store_true', default=False)
-#barometer = True
+parser.add_argument('-B', '--barometer', action='store_true', default=False)
+# barometer = True
 
-parser.add_argument('-G','--gyroscope', action='store_true', default=False)
-#gyroscope = False
+parser.add_argument('-G', '--gyroscope', action='store_true', default=False)
+# gyroscope = False
 
-parser.add_argument('-K','--keypress', action='store_true', default=False)
-#keypress = True
+parser.add_argument('-K', '--keypress', action='store_true', default=False)
+# keypress = True
 
-parser.add_argument('-L','--light', action='store_true', default=False)
-#light = True
+parser.add_argument('-L', '--light', action='store_true', default=False)
+# light = True
 
 parser.add_argument('--all', action='store_true', default=False)
-#doAll = False
+# doAll = False
 
 
 arg = parser.parse_args(sys.argv[1:])
@@ -74,29 +74,29 @@ if (arg.light or arg.all) and tag.lightmeter is not None:
 # Not waiting here after enabling a sensor, the first read value might be empty or incorrect.
 time.sleep(1.0)
 
-counter=1
+counter = 1
 while True:
-	if arg.temperature or arg.all:
-		print('Temp: ', tag.IRtemperature.read())
-	if arg.humidity or arg.all:
-		print("Humidity: ", tag.humidity.read())
-	if arg.barometer or arg.all:
-		print("Barometer: ", tag.barometer.read())
-	if arg.accelerometer or arg.all:
-		print("Accelerometer: ", tag.accelerometer.read())
-	if arg.magnetometer or arg.all:
-		print("Magnetometer: ", tag.magnetometer.read())
-	if arg.gyroscope or arg.all:
-		print("Gyroscope: ", tag.gyroscope.read())
-	if (arg.light or arg.all) and tag.lightmeter is not None:
-		print("Light: ", tag.lightmeter.read())
-	if counter >= arg.count and arg.count != 0:
-		break
-	
-	# important for calling java application to get stdout
-	sys.stdout.flush()
-	counter += 1
-	tag.waitForNotifications(arg.t)
+    if arg.temperature or arg.all:
+        print('Temp: ', tag.IRtemperature.read())
+    if arg.humidity or arg.all:
+        print("Humidity: ", tag.humidity.read())
+    if arg.barometer or arg.all:
+        print("Barometer: ", tag.barometer.read())
+    if arg.accelerometer or arg.all:
+        print("Accelerometer: ", tag.accelerometer.read())
+    if arg.magnetometer or arg.all:
+        print("Magnetometer: ", tag.magnetometer.read())
+    if arg.gyroscope or arg.all:
+        print("Gyroscope: ", tag.gyroscope.read())
+    if (arg.light or arg.all) and tag.lightmeter is not None:
+        print("Light: ", tag.lightmeter.read())
+    if counter >= arg.count and arg.count != 0:
+        break
+    
+    # important for calling java application to get stdout
+    sys.stdout.flush()
+    counter += 1
+    tag.waitForNotifications(arg.t)
 
 tag.disconnect()
 del tag

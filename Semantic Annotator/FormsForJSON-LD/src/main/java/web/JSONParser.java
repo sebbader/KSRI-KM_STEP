@@ -22,6 +22,11 @@ import com.github.jsonldjava.utils.JsonUtils;
 @Path("jsonld-parser")
 public class JSONParser {
 	
+	/**
+	 * http://localhost:8080/semantic-annotator/test/jsonld-parser
+	 * @return
+	 */
+	
 	@GET
 	public String sayHello() {
 		return "Hello!";
@@ -52,6 +57,9 @@ public class JSONParser {
 		
 		// Print out the result (or don't, it's your call!)
 		//return JsonUtils.toPrettyString(compact);*/
+		
+		System.out.println(text);
+		
 		return "hui";
 
 	}

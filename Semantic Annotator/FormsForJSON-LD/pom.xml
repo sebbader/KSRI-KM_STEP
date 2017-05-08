@@ -11,10 +11,9 @@
 		<rdf4j.version>2.2</rdf4j.version>
 		<lucene.version>5.0.0</lucene.version>
 		<jetty.version>9.2.21.v20170120</jetty.version>
-		<!-- <nxparser.group>org.semanticweb.yars</nxparser.group>
-		<nxparser.version>2.3.3</nxparser.version>-->
-		<nxparser.group>com.github.nxparser.nxparser</nxparser.group> 
-		<nxparser.version>b435ea19a48b2a3fb8ca8588f988ebac9ff58a7a</nxparser.version>
+		<!-- <nxparser.group>org.semanticweb.yars</nxparser.group> <nxparser.version>2.3.3</nxparser.version> -->
+		<nxparser.group>com.github.nxparser.nxparser</nxparser.group>
+		<nxparser.version>3dd34fc0fd1843614112e02fa048ba6aff82faa5</nxparser.version>
 	</properties>
 
 
@@ -36,11 +35,45 @@
 			<version>1.19</version>
 		</dependency>
 
-		<!-- <dependency>
+		<!-- Servlet modules for RESTful interface -->
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>3.1.0</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.glassfish.jersey.containers</groupId>
+			<artifactId>jersey-container-servlet</artifactId>
+			<version>2.25.1</version>
+		</dependency>
+		<dependency><!-- only for its CORS filter: -->
+			<groupId>org.eclipse.jetty</groupId>
+			<artifactId>jetty-servlets</artifactId>
+			<version>${jetty.version}</version>
+			<exclusions>
+				<exclusion>
+					<groupId>org.eclipse.jetty</groupId>
+					<artifactId>jetty-continuation</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>org.eclipse.jetty</groupId>
+					<artifactId>jetty-io</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>org.eclipse.jetty</groupId>
+					<artifactId>jetty-http</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+
+
+		<!-- -->
+		<dependency>
 			<groupId>${nxparser.group}</groupId>
 			<artifactId>nxparser-jax-rs</artifactId>
 			<version>${nxparser.version}</version>
-			<scope>compile</scope>
+			<!--  <scope>compile</scope>
 			<exclusions>
 				<exclusion>
 					<artifactId>slf4j-log4j12</artifactId>
@@ -54,8 +87,8 @@
 					<artifactId>slf4j-api</artifactId>
 					<groupId>org.slf4j</groupId>
 				</exclusion>
-			</exclusions>
-		</dependency> -->
+			</exclusions>-->
+		</dependency>
 		<dependency>
 			<groupId>${nxparser.group}</groupId>
 			<artifactId>nxparser-parsers-external-jsonld-jsonld_java</artifactId>
@@ -107,13 +140,13 @@
 			<version>0.10.0</version>
 		</dependency>
 
+
+
 		<dependency>
 			<groupId>nxindexer</groupId>
 			<artifactId>nxindexer</artifactId>
 			<version>0.0.2-SNAPSHOT</version>
 		</dependency>
-
-
 	</dependencies>
 
 

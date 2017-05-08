@@ -6,7 +6,7 @@
         <dependent-module archiveName="nxindexer-0.0.2-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/nxindexer/nxindexer">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <property name="java-output-path" value="/Semantic Annotator_FormsForJSON-LD/build/classes"/>
+        <property name="java-output-path" value="/Semantic_Annotator/build/classes"/>
         <property name="context-root" value="semantic-annotator"/>
     </wb-module>
 </project-modules>

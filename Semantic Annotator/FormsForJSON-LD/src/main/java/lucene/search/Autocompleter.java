@@ -29,6 +29,10 @@ import org.semanticweb.yars.parsers.external.json.jsonld_java.JsonLDserialiser.N
 @Path("/autocomplete")
 public class Autocompleter {
 
+	/**
+	 * @author sba
+	 * @return
+	 */
 	@GET
 	public Response doGet() {
 		return Response.ok().build();

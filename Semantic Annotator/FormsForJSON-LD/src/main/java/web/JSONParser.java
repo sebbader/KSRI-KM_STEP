@@ -8,6 +8,7 @@ import java.util.Map;
 import javax.ws.rs.GET;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
 
 import com.github.jsonldjava.core.JsonLdError;
 import com.github.jsonldjava.core.JsonLdOptions;
@@ -28,7 +29,7 @@ public class JSONParser {
 	}
 
 	@POST
-//	@Produces("application/json-ld")
+	@Produces("application/ld+json")
 //	@Consumes(MediaType.TEXT_PLAIN)
 	public String parseJSONLD(String text) throws IOException, JsonLdError {
 		
@@ -45,16 +46,7 @@ public class JSONParser {
 		Map<String, Object> compact = JsonLdProcessor.compact(jsonObject, context, options);
 		
 		// Print out the result (or don't, it's your call!)
-<<<<<<< HEAD
-		//return JsonUtils.toPrettyString(compact);*/
-		
-		System.out.println(text);
-		
-		return "hui";
-
-=======
 		return JsonUtils.toPrettyString(compact);
->>>>>>> branch 'master' of https://github.com/sebbader/KSRI-KM_STEP
 	}
 	
 }

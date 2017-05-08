@@ -9,7 +9,112 @@
 
 	<properties>
 		<rdf4j.version>2.2</rdf4j.version>
+		<lucene.version>5.0.0</lucene.version>
+		<jetty.version>9.2.21.v20170120</jetty.version>
+		<!-- <nxparser.group>org.semanticweb.yars</nxparser.group>
+		<nxparser.version>2.3.3</nxparser.version>-->
+		<nxparser.group>com.github.nxparser.nxparser</nxparser.group> 
+		<nxparser.version>b435ea19a48b2a3fb8ca8588f988ebac9ff58a7a</nxparser.version>
 	</properties>
+
+
+	<repositories>
+		<repository>
+			<id>jitpack.io</id>
+			<url>https://www.jitpack.io</url>
+		</repository>
+	</repositories>
+
+
+
+	<dependencies>
+
+		<!-- Jersey modules for RESTful interface -->
+		<dependency>
+			<groupId>com.sun.jersey</groupId>
+			<artifactId>jersey-bundle</artifactId>
+			<version>1.19</version>
+		</dependency>
+
+		<!-- <dependency>
+			<groupId>${nxparser.group}</groupId>
+			<artifactId>nxparser-jax-rs</artifactId>
+			<version>${nxparser.version}</version>
+			<scope>compile</scope>
+			<exclusions>
+				<exclusion>
+					<artifactId>slf4j-log4j12</artifactId>
+					<groupId>org.slf4j</groupId>
+				</exclusion>
+				<exclusion>
+					<artifactId>log4j</artifactId>
+					<groupId>log4j</groupId>
+				</exclusion>
+				<exclusion>
+					<artifactId>slf4j-api</artifactId>
+					<groupId>org.slf4j</groupId>
+				</exclusion>
+			</exclusions>
+		</dependency> -->
+		<dependency>
+			<groupId>${nxparser.group}</groupId>
+			<artifactId>nxparser-parsers-external-jsonld-jsonld_java</artifactId>
+			<version>${nxparser.version}</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>${nxparser.group}</groupId>
+			<artifactId>nxparser-utilities-nx</artifactId>
+			<version>${nxparser.version}</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>${nxparser.group}</groupId>
+			<artifactId>nxparser-model-datatypes</artifactId>
+			<version>${nxparser.version}</version>
+			<scope>compile</scope>
+		</dependency>
+
+
+
+		<!-- https://mvnrepository.com/artifact/org.apache.jena/jena-core -->
+		<dependency>
+			<groupId>org.apache.jena</groupId>
+			<artifactId>jena-core</artifactId>
+			<version>3.2.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.jena/jena-jdbc-core -->
+		<dependency>
+			<groupId>org.apache.jena</groupId>
+			<artifactId>jena-jdbc-core</artifactId>
+			<version>3.2.0</version>
+		</dependency>
+
+
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20140107</version>
+		</dependency>
+		<dependency>
+			<groupId>com.github.jsonld-java</groupId>
+			<artifactId>jsonld-java</artifactId>
+			<version>0.10.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.github.jsonld-java</groupId>
+			<artifactId>jsonld-java</artifactId>
+			<version>0.10.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>nxindexer</groupId>
+			<artifactId>nxindexer</artifactId>
+			<version>0.0.2-SNAPSHOT</version>
+		</dependency>
+
+
+	</dependencies>
 
 
 	<build>
@@ -33,47 +138,5 @@
 			</plugin>
 		</plugins>
 	</build>
-
-
-
-	<dependencies>
-		<!-- https://mvnrepository.com/artifact/org.apache.jena/jena-core -->
-		<dependency>
-			<groupId>org.apache.jena</groupId>
-			<artifactId>jena-core</artifactId>
-			<version>3.2.0</version>
-		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.apache.jena/jena-jdbc-core -->
-		<dependency>
-			<groupId>org.apache.jena</groupId>
-			<artifactId>jena-jdbc-core</artifactId>
-			<version>3.2.0</version>
-		</dependency>
-
-
-
-
-		<!-- Jersey modules for RESTful interface -->
-		<dependency>
-			<groupId>com.sun.jersey</groupId>
-			<artifactId>jersey-bundle</artifactId>
-			<version>1.19</version>
-		</dependency>
-		<dependency>
-			<groupId>org.json</groupId>
-			<artifactId>json</artifactId>
-			<version>20140107</version>
-		</dependency>
-		<dependency>
-			<groupId>com.github.jsonld-java</groupId>
-			<artifactId>jsonld-java</artifactId>
-			<version>0.10.0</version>
-		</dependency>
-		<dependency>
-			<groupId>com.github.jsonld-java</groupId>
-			<artifactId>jsonld-java</artifactId>
-			<version>0.10.0</version>
-		</dependency>
-	</dependencies>
 
 </project>

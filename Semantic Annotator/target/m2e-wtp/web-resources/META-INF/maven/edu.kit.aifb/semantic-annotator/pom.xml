@@ -147,6 +147,13 @@
 			<artifactId>nxindexer</artifactId>
 			<version>0.0.2-SNAPSHOT</version>
 		</dependency>
+		
+		
+		<dependency>
+			<groupId>virtuoso</groupId>
+			<artifactId>virt-jena</artifactId>
+			<version>3</version>
+		</dependency>
 	</dependencies>
 
 

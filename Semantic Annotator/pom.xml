@@ -28,12 +28,12 @@
 
 	<dependencies>
 
-		<!-- Jersey modules for RESTful interface -->
+		<!-- Jersey modules for RESTful interface 
 		<dependency>
 			<groupId>com.sun.jersey</groupId>
 			<artifactId>jersey-bundle</artifactId>
 			<version>1.19</version>
-		</dependency>
+		</dependency>-->
 
 		<!-- Servlet modules for RESTful interface -->
 		<dependency>
@@ -141,12 +141,12 @@
 		</dependency>
 
 
-
+	
 		<dependency>
 			<groupId>nxindexer</groupId>
 			<artifactId>nxindexer</artifactId>
 			<version>0.0.2-SNAPSHOT</version>
-		</dependency>
+		</dependency> 
 		
 		
 		<dependency>
@@ -164,8 +164,8 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.5.1</version>
 				<configuration>
-					<source>1.7</source>
-					<target>1.7</target>
+					<source>1.8</source>
+					<target>1.8</target>
 				</configuration>
 			</plugin>
 			<plugin>

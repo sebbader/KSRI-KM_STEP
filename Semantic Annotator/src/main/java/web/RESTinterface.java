@@ -1,4 +1,4 @@
-package main.java.web.example;
+package main.java.web;
 
 import java.net.URI;
 import java.net.URISyntaxException;
@@ -40,9 +40,10 @@ import org.semanticweb.yars.nx.Resource;
 import org.semanticweb.yars.nx.namespace.LDP;
 import org.semanticweb.yars.nx.namespace.RDF;
 
-import main.java.web.example.DerServletContextListener.ServletContextAttributes;
+import main.java.web.DerServletContextListener.ServletContextAttributes;
 
-@Path("/")
+
+@Path("/rest")
 @RedirectMissingTrailingSlash
 @InjectHeaders({ @HeaderField(name = "Link", value = "<http://www.w3.org/ns/ldp#BasicContainer>; rel=\"type\""),
 		@HeaderField(name = "Link", value = "<http://www.w3.org/ns/ldp#Resource>; rel=\"type\"") })

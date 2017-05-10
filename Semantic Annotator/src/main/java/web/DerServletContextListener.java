@@ -1,4 +1,4 @@
-package main.java.web.example;
+package main.java.web;
 
 import java.util.Map;
 import java.util.Set;

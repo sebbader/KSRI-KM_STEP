@@ -8,7 +8,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Lumen .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_SI_L-1MT-3 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#TonShortPerCubicYard .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#Crush .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/time#year .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/ns/prov#wasGeneratedBy .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2001/XMLSchema#string .
@@ -21,7 +20,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#HeartRateUnit .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/ns/org#hasSite .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_SI_L-1MT-2 .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#Organization .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#WebfedSolutions .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2002/07/owl#propertyDisjointWith .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_CGS_LT-1 .
@@ -101,7 +99,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/quantity#LuminousEnergy .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/quantity#MolecularViscosity .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#SchmidtPapierdruck .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#Car .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Thermal_resistance .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#CalorieThermochemical .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.linkedmodel.org/schema/vaem#date .
@@ -151,7 +148,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_SI_L2Θ .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#PlanckTime .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/quantity#Exposure .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#Kin .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/quantity#EnergyKinetic .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Magnetic_moment .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#JoulePerKilogramKelvinPerCubicMeter .
@@ -169,13 +165,11 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/quantity#Frequency .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/time#hours .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_Planck_L2MT-3 .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#Home .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Category:Units_of_mass .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#Stanz-Laser-Maschinen .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/quantity#Currency .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#Pula .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#Tuttlingen .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#hasHonorificPrefix .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Statvolt .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://iirds.tekom.de/iirds#Synonym .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Physical_constant .
@@ -214,7 +208,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#SpecialDrawingRights .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#makeready .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#KilogramForce .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#ISDN .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#referenceThing .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Japanese_yen .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Category:Units_of_velocity .
@@ -275,7 +268,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/1.1/vocab/quantity .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#ExposureUnit .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Category:Units_of_catalytic_activity .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#organization-unit .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/quantity#PowerArea .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#Statmho .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_USCustomary_M-1T3Θ .
@@ -298,7 +290,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#VelocityUnit .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#LuminousFluxUnit .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_SI_L2T-2Θ-1 .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#Parcel .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/East_Caribbean_dollar .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/quantity#ElectricDipoleMoment .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#damper-roller .
@@ -310,7 +301,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#PhysicalUnit .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#StatamperePerSquareCentimeter .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#RadiologyUnit .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#organization-name .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Category:Units_of_volume .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.loa-cnr.it/ontologies/DUL.owl .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Brazilian_real .
@@ -319,7 +309,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/ns/org#role .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#Zebi .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Joule .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#hasUID .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Vector_L-4 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/quantity#ElectricQuadrupoleMoment .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#BelizeDollar .
@@ -347,11 +336,9 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#usedModel .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Angle .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/quantity#ThermalResistance .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#hasCalendarBusy .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_SI_L-3N .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#value .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Somali_shilling .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#TextPhone .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#MeterPerSecond .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/time#week .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#PlannedTask .
@@ -375,7 +362,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/quantity#EnergyAndWork .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#Teaspoon .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#QuantityType .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#honorific-prefix .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#ICS670 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#FootPoundForcePerSquareMeter .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#CubicMeterPerHour .
@@ -400,7 +386,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#TrinidadAndTobagoDollar .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#PerMole .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Reynolds_number .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#nickname .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step/moduleA/0.3.0 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#KilogramSecondSquared .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_CGS-EMU_U .
@@ -408,13 +393,11 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#SamplePerSecond .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#SlugPerFoot .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#Tool .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2002/07/owl#minQualifiedCardinality .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Myanma_kyat .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/_:genid347 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2000/01/rdf-schema#range .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Vector_Θ7 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#YuanRenminbi .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#hasTitle .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#BtuInchPerSquareFootSecondDegreeFahrenheit .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#duct-adjusting_screw .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/quantity#EnergyInternal .
@@ -436,9 +419,7 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#Lari .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Vector_I-3 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Quantity .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#Acquaintance .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#BtuPerSquareFootSecondDegreeFahrenheit .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2001/sw/BestPractices/OEP/SimplePartWhole/part.owl#partOf .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Vector_T-2 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Vector_Θ9 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.loa-cnr.it/ontologies/DUL.owl#hasQuality .
@@ -486,7 +467,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/quantity#Action .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#PhysicalConstant .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Gal .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#fn .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/ns/org#memberOf .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#Rod .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#Dalton .
@@ -578,15 +558,12 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#circumferential_register .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Vector_Q6 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Vector_Θ3 .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#SpeedmasterCS102 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_SI_L-2M-3T10I4 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/quantity#ElectricCurrentPerUnitLength .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#preloading_device .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/quantity#ElectricField .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#user_interface .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#hasCalendarLink .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/quantity#Mass .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#hasRole .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.linkedmodel.org/schema/vaem#hasRole .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_SI_LMT-3Θ-1 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/quantity#ForceMagnitude .
@@ -615,7 +592,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Rwandan_franc .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Vector_Q4 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2002/07/owl#inverseOf .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#hasNote .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#BrazilianReal .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#paper .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#differenceToUTC .
@@ -644,7 +620,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#PicoFarad .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_SI_L2MT-2 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Coulomb .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#hasKey .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Candle .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/quantity#Enthalpy .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#CubicInchPerMinute .
@@ -665,7 +640,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_SI_L-1T-2Θ-1 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_SI_LΘ .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_CGS_L2 .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#Friend .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/ns/org# .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_SI_M-1T4I2 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Launch .
@@ -704,7 +678,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#Kilowatthour .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#LiberianDollar .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/quantity#EnergyPerAreaElectricCharge .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#hasLogo .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://iirds.tekom.de/iirds#CEDeclarationOfConformity .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#Dyne .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/quantity#ElectricCurrent .
@@ -756,18 +729,14 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Guyanese_dollar .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#Ampere .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Peta .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#title .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#Statcoulomb .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Vector_I3 .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#hasURL .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://iirds.tekom.de/iirds#Licensing .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Vector_T-7 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Faraday_constant .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/time#months .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#Postal .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/ns/org#Membership .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#LogarithmicUnit .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#latitude .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Thai_baht .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#PerTeslaSecond .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_SI_L3 .
@@ -796,6 +765,7 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Vector_I1 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_SI_L2 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Vector_I-9 .
+"0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#SpeedmasterCD102 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://purl.org/dc/elements/1.1/contributor .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Vector_T-5 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#Micrometer .
@@ -810,13 +780,11 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#Erg .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Vector_I-6 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Vector_I6 .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#Muse .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Vector_T-6 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#KITP00304 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.linkedmodel.org/schema/vaem#intent .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#CurrencyUnit .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Category:Units_of_electrical_conductance .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#class .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/time#intervalOverlaps .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Vector_I7 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Quetzal .
@@ -829,7 +797,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#LiquidOunceUS .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Vector_I-7 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://purl.oclc.org/NET/ssnx/ssn#OperatingPowerRange .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#extended-address .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://iirds.tekom.de/iirds#Installation .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Kilo .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#Millibar .
@@ -882,7 +849,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/time#TemporalUnit .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#OuncePerCubicInch .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step/0.2.0/moduleC#date .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#Text .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/quantity#Vorticity .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#PrinectPressCenter2 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#WattPerSquareMeter .
@@ -957,9 +923,7 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#SecondAngle .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Milli- .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/quantity#SpecificVolume .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#Agent .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#RadianceUnit .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#sort-string .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#DryQuartUS .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Lari .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Ban .
@@ -996,7 +960,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_SI_T-1N .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Capacity .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#Som .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#email .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#Breath .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#SystemOfUnits_MKS .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/quantity#LengthTemperatureTime .
@@ -1011,7 +974,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/qudt-unit.owl .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/owl-time.owl .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Malagasy_ariary .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#Colleague .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Vector_M-8 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#Lempira .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/quantity#MolarHeatCapacity .
@@ -1023,7 +985,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/quantity#AmountOfSubstancePerUnitVolume .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#damping_roller .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#AreaTimeTemperatureUnit .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#post-office-box .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Lempira .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#Peta .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#SquareMeterSteradian .
@@ -1068,7 +1029,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#fan .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://purl.oclc.org/NET/ssnx/ssn#observedProperty .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#VenezuelanBolvar .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#logo .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2000/01/rdf-schema#subClassOf .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#prefixUnitOfSystem .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#Technician .
@@ -1095,14 +1055,11 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#DegreeFahrenheitPerSecond .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.loa-cnr.it/ontologies/DUL.owl#isRegionFor .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2000/01/rdf-schema#comment .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#url .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://purl.oclc.org/NET/ssnx/ssn#Frequency .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#AlgerianDinar .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_SI_MT-1 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/quantity#PolarMomentOfInertia .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#X400 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Vector_J0 .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#bday .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/quantity#StaticPressure .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_CGS-Gauss_L1.5M0.5T-2 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/ns/org#changedBy .
@@ -1112,11 +1069,9 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_SI_MT-2 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/time#unitSecond .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Vector_J1 .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#Pref .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Vector_U-8 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_CGS-Gauss_L1.5M0.5T-1 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Friction .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#prodid .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#MoroccanDirham .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#print_ink_feeding .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_SI_MT-3 .
@@ -1189,7 +1144,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Category:Units_of_torque .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#CentimeterPerSecond .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#ink_(fountain)_key .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#additional-name .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Vector_J3 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#NotUsedWithSIUnit .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Vector_J-6 .
@@ -1226,7 +1180,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/quantity#Radiance .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Vector_J-1 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Vector_J6 .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#Met .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://org.semanticweb.owlapi/error#Error1 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Revolution .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2001/XMLSchema#anySimpleType .
@@ -1234,13 +1187,13 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Weber .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://iirds.tekom.de/iirds#Maintenance .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#Baht .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#Sweetheart .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.linkedmodel.org/schema/vaem#Attribution .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_SI_L-1 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#pressure_tank .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Jordanian_dinar .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Vector_J-2 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Manat .
+"0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/ .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/time#intervalMeets .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#systemDimension .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Vector_J7 .
@@ -1253,7 +1206,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#SeychellesRupee .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#ProportionalityConstant .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/quantity#ThermalResistivity .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#Spouse .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://iirds.tekom.de/iirds#requires-supply .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#PoundForcePerPound .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#Yard .
@@ -1274,8 +1226,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#LuminousEfficacyUnit .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://purl.oclc.org/NET/ssnx/ssn#Precision .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#DegreePerSecond .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#Internet .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#hasPostalCode .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/ns/org#identifier .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_Planck_Θ .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/North_Korean_won .
@@ -1304,7 +1254,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/quantity#ElectricChargePerMass .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Solomon_Islands_dollar .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#print_ink_form_roller .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#Cell .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/quantity#AngularFrequency .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#print_counter-pressure_cylinder_ .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#description .
@@ -1338,12 +1287,10 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#SolidAngleUnit .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Erg .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#Pataca .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#Heissgetraenkeautomat .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2001/XMLSchema#maxInclusive .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#Statohm .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#derivedQuantityKindOfSystem .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Signal_strength .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#street-address .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#ductor .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#SquareInch .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#(rubber)_blanket_cylinder .
@@ -1371,7 +1318,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Angular_frequency .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Angular_acceleration .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#Candle .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#mailer .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#string1024 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Kilometre .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#JoulePerMole .
@@ -1397,7 +1343,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#signal_device .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_USCustomary_MT-2 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Zepto- .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#Coworker .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/quantity#PlaneAngle .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#CurrentPerAngleUnit .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#CentimeterSecondDegreeCelsius .
@@ -1428,7 +1373,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#EastCaribbeanDollar .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_USCustomary_L-1M .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://iirds.tekom.de/iirds#RepairInstructions .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2002/07/owl#onDataRange .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/quantity#Asset .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#Stathenry .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/catalog/qudt#QUDT-DIMENSIONS-VocabCatalogEntry .
@@ -1459,7 +1403,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_USCustomary_L3T-1 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/quantity#LinearEnergyTransfer .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#expertiseOfSystem .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#language .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Guinean_franc .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Australian_dollar .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#InductanceUnit .
@@ -1474,9 +1417,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_SI_LMT-2 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#unitSystem .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#DegreeFahrenheitPerMinute .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#label .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#hasPhoto .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#Other .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Mach .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#UnitPole .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Vector_Θ-4 .
@@ -1501,11 +1441,9 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Becquerel .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://iirds.tekom.de/iirds#has-version .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://iirds.tekom.de/iirds#DocumentationMetadata .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#Fax .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Yemeni_rial .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Vector_Θ-9 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Yotta- .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#tz .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Vector_L0.5 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://purl.org/dc/terms/hasVersion .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/quantity#InverseTimeTemperature .
@@ -1516,7 +1454,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Candlepower .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Hungarian_forint .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#screen .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#longitude .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Vector_Θ-8 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#reference .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Qatari_riyal .
@@ -1537,7 +1474,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#CubicInch .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Curvature .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#Pebi .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#hasCalendarRequest .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#Kroon .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#OunceMass .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/1999/02/22-rdf-syntax-ns#first .
@@ -1558,7 +1494,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Pula .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://iirds.tekom.de/iirds#Transport .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/ns/org#basedAt .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#Date .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Dyne .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Foot_per_second .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#isBusyAt .
@@ -1582,7 +1517,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/quantity#PowerPerAreaAngle .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#MeterPerMinute .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_SI_L-2J .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#key .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#AstronomicalUnit .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#positiveDeltaLimit .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#EuropeanUnitOfAccount9 .
@@ -1595,13 +1529,11 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_SI_L-2I .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Bangladeshi_taka .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Chemistry .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#org .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#Vatu .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#GuineaFranc .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#AmountOfSubstanceUnit .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#ThermalConductivityUnit .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#HeartBeat .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#Neighbor .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#SignalDetectionThresholdUnit .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#KilogramPerSquareMeter .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#Herbert_Feuerstein .
@@ -1613,14 +1545,12 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#Dalasi .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Category:Units_of_energy .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#print_ink_ductor .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#Intl .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Bit .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#KnotPerSecond .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Tex .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#Stere .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/quantity#Acceleration .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://purl.oclc.org/NET/ssnx/ssn#observedBy .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#hasValue .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#quantityValue .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Pakistani_rupee .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Roentgen .
@@ -1645,9 +1575,7 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/quantity#MolarEnergy .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#Furlong .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Mozambican_metical .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#None .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Category:Units_of_electrical_charge .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#Type .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#ArubanGuilder .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/quantity#MassPerElectricCharge .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Israeli_new_sheqel .
@@ -1717,7 +1645,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#dampening_distributor_cylinder .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#Leone .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Vector_T3 .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#Modem .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#VoltMeter .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#sourceUri .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#CubicCoulombMeterPerSquareJoule .
@@ -1732,14 +1659,12 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/ns/org#member .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Armenian_dram .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2000/01/rdf-schema#domain .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#Name .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Comorian_franc .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#date .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#suction_head_drive .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#ThrustToMassRatioUnit .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#AngularMomentumUnit .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Lux .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#hasGivenName .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#HansaVerlagsgruppe .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Vector_T8 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Furlong .
@@ -1754,13 +1679,11 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Planck_power .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#TonAssay .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Vector_T6 .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#Kind .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#printing_press .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_SI_L2MT-2Θ-1N-1 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_SI_L2I .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2001/XMLSchema#maxLength .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/ns/org#holds .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#hasHonorificSuffix .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Kenyan_shilling .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Millimetre .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.loa-cnr.it/ontologies/DUL.owl#Method .
@@ -1805,13 +1728,11 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Imperial_units .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/REM .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Electric_charge .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#hasAdditionalName .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#HaitiGourde .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://iirds.tekom.de/iirds#Repair .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#MinuteAngle .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_SI_L2MT-2N-1 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_USCustomary_UT-1 .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#Sibling .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#NephelometricTurbidityUnit .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/ns/prov#wasDerivedFrom .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Relative_permeability .
@@ -1908,7 +1829,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/ns/org#hasUnit .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://purl.oclc.org/NET/ssnx/ssn#implements .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#HertzPerVolt .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#Video .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#InchOfMercury .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#baseDimensionEnumeration .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://purl.oclc.org/NET/ssnx/ssn#detects .
@@ -1937,7 +1857,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#KITE00075 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#PhilippinePeso .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://voag.linkedmodel.org/schema/voag#CC-SHAREALIKE_3PT0-US .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Inch .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#Address .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Vector_L8 .
@@ -1958,11 +1877,9 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#Slug .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#Gamma .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#Dalton2 .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#hasMember .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Pound_per_hour .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#Reutlingen .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#DynePerSquareCentimeter .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#honorific-suffix .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Abhenry .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Specific_heat_capacity .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://purl.oclc.org/NET/ssnx/ssn#sensingMethodUsed .
@@ -2016,7 +1933,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#RevolutionPerHour .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#SquareMeterKelvinPerWatt .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#KiloHertz .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#hasLanguage .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#PoundPerInch .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://iirds.tekom.de/iirds#Customization .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#Atto .
@@ -2031,7 +1947,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Bushel .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#VoltPerSecond .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Czech_koruna .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#hasFamilyName .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Pico .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Russian_ruble .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/quantity#StochasticProcess .
@@ -2065,9 +1980,7 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#PoundForcePerSquareInchSecond .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#SystemOfUnits_CGS .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#NewTurkishLira .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#Male .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/quantity#SpecificHeatCapacity .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#BBS .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Grad .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#TruPunch2000 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Vector_U1 .
@@ -2082,7 +1995,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Vector_U6 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#HeatFlowRateUnit .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_SI_T-1Θ-1 .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#hasFN .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/quantity#ForcePerElectricCharge .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#washing_fluid_container .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#transfer_roll .
@@ -2102,10 +2014,8 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Swedish_krona .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#GallonUSPerMinute .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Kip .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#role .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Byte .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://iirds.tekom.de/iirds#Duration .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#hasOrganizationName .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#oscillator .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#SystemBaseDimensionEnumeration_USCustomary .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#print_ink_blade .
@@ -2115,7 +2025,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#DegreePerMinute .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Henry .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_SI_L3MT-4I-2 .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#note .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#ElectricChargeLineDensityUnit .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#IndianRupee .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Turbidity .
@@ -2139,14 +2048,12 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#standardUncertainty .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#BahrainiDinar .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#QatariRial .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#hasOrganizationUnit .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://xmlns.com/foaf/0.1/name .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://iirds.tekom.de/iirds#WhatsNew .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#KilobitsPerSecond .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.linkedmodel.org/schema/vaem#ViewGraph .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#Pico .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://purl.oclc.org/NET/ssnx/ssn#hasSurvivalProperty .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#Unknown .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2002/07/owl#oneOf .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_SI_L4M2T-4 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_Planck_L2MT-1Q-2 .
@@ -2158,7 +2065,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_USCustomary_L-1M-1T3Θ .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#systemCoherentUnit .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#ZimbabweDollar .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#tel .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#PrintectPressCenter2 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/St%C3%A8re .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_SI_L2T-2 .
@@ -2168,7 +2074,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#Paanga .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://purl.oclc.org/NET/ssnx/ssn#Sensor .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#Konstanz .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#PCS .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Syrian_pound .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://purl.oclc.org/NET/ssnx/ssn#OperatingProperty .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Uruguayan_peso .
@@ -2181,7 +2086,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Balboa .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Danish_krone .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#FootPoundForce .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#Work .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2000/01/rdf-schema#seeAlso .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Vector_T10 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://purl.org/dc/terms/isVersionOf .
@@ -2213,7 +2117,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Dipole .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://purl.oclc.org/NET/ssnx/ssn#Device .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#Carat .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#Pager .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#RevolutionPerSecond .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://purl.org/dc/elements/1.1/title .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#UICFranc .
@@ -2221,7 +2124,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Category:Units_of_time .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#Maxwell .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#JoulePerCubicMeter .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#hasGeo .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_CGS-ESU_L0.5M0.5 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#numericValue .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#Are .
@@ -2244,7 +2146,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#systemQuantityKind .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Mole_%28unit%29 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Category:Units_of_information .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#Group .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#HourSquareFoot .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/ns/org#hasPost .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://xmlns.com/foaf/0.1/homepage .
@@ -2267,7 +2168,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#SystemBaseDimensionEnumeration_CGS .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#SlovakKoruna .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/quantity#TemperatureAmountOfSubstance .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#family-name .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#ElectronVoltPerTesla .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#TeslaSecond .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#LinearMomentumUnit .
@@ -2281,7 +2181,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#print_tech._delivery_chain .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#VolumePerMassUnit .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/quantity#DoseEquivalent .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#hasNickname .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Ratio .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#main_connection .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#AngularAccelerationUnit .
@@ -2296,7 +2195,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Vector_M0 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/quantity#AmountOfSubstance .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/time#weeks .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#sound .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_CGS_L-1 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Category:Units_of_electrical_capacitance .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Thermal_diffusivity .
@@ -2327,18 +2225,15 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Pounds_per_square_inch .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://purl.org/dc/terms/license .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Vector_M7 .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#Contact .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Internal_energy .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#Milligravity .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Vector_M-3 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_SI_UL-2M-1T3J .
-"0"^^http://www.w3.org/2001/XMLSchema#float urn:oasis:names:tc:entity:xmlns:xml:catalogcatalog .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#valueQuantity .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#Hartree .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#MolePerKilogram .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Vector_L-0.5 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_SI_UT-2 .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#hasLocality .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#StatvoltPerCentimeter .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Category:Units_of_density .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/quantity#EnergyPerArea .
@@ -2370,7 +2265,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#ComputingUnit .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Tunisian_dinar .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#MaintenanceIntervall .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#hasInstantMessage .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Planck_current .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_SI_L2MT-2I-1 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Bahraini_dinar .
@@ -2398,14 +2292,11 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#gripper_operating_shaft .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#RateOfReturnUnit .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2002/07/owl#disjointWith .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#Individual .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#hasStreetAddress .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Vector_M8 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#GramDegreeCelsius .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Gram .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Mongolian_t%C3%B6gr%C3%B6g .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_USCustomary_U .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#Female .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://purl.org/dc/elements/1.1/subject .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Cuban_peso .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#Abtesla .
@@ -2430,7 +2321,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://iirds.tekom.de/iirds#relates-to-product-metadata .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#PlanckForce .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/quantity#AreaTime .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#hasSound .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#UsedWithSIUnit .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.linkedmodel.org/schema/vaem#name .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#LatvianLats .
@@ -2515,12 +2405,10 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#QuantityValue .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Angolan_kwanza .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#rubber_blanket_plate .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#Emergency .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/quantity#VolumeThermalExpansion .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_CGS-ESU_L-1.5M0.5 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#keyboard .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#ink_roller .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#locality .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Category:Natural_units .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://voag.linkedmodel.org/voag#CC-SHAREALIKE_3PT0-US .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#MegabitsPerSecond .
@@ -2563,7 +2451,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#BtuInch .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#Expertise .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Vector_U10 .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#Location .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2002/07/owl#FunctionalProperty .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Category:Units_of_electrical_resistance .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_CGS-ESU_L0.5M0.5T-2 .
@@ -2576,7 +2463,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#EnergyDensityUnit .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/1999/02/22-rdf-syntax-ns#rest .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_CGS-Gauss_M .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#RelatedType .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://purl.oclc.org/NET/ssnx/ssn#Observation .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#MauritiusRupee .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#PoundTroy .
@@ -2585,7 +2471,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Vector_Q-5 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_CGS-ESU_L0.5M0.5T-1 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#Ngultrum .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#hasCategory .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/quantity#EnergyDensity .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Canadian_dollar .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#KilocaloriePerCentimeterSecondDegreeCelsius .
@@ -2600,12 +2485,10 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#LinearVelocityUnit .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Pascal .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Thermal_energy .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#n .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Argentine_peso .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#pump .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#SouthAfricanRand .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#TonEnergy .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#Dom .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#GoldFranc .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/quantity#RadiantEmmitance .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Centimetre_gram_second_system_of_units .
@@ -2631,9 +2514,7 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Communication .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#ConcentrationUnit .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2002/07/owl#allValuesFrom .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#FHG-732 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#coupling .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#Tel .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Vector_Q-1 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#DecimalPrefixUnit .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_SI_ΘN .
@@ -2663,7 +2544,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_CGS_L3 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/quantity#ThermodynamicEntropy .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://purl.org/dc/terms/subject .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#Child .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#blanket/impression_cylinder_washup_device .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#IlluminanceUnit .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Gyromagnetic_ratio .
@@ -2677,7 +2557,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/quantity#StrainEnergyDensity .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/quantity#LengthMolarEnergy .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#AustralianDollar .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#VCard .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_CGS_L-1M .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/time#Instant .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_SI_J .
@@ -2694,8 +2573,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#KenyanShilling .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#NorwegianKrone .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_SI_I .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#Label .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#Coresident .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#SystemOfUnits_Planck .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#AmperePerRadian .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/ns/org#hasRegisteredSite .
@@ -2705,7 +2582,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.loa-cnr.it/ontologies/DUL.owl#isQualityOf .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_CGS-EMU_L0.5M0.5T-2 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_SI_L-1Θ-1 .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#hasRegion .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_CGS-ESU_L1.5M0.5T-1 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2003/01/geo/wgs84_pos#lat .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#QuantityKindCategory .
@@ -2799,12 +2675,10 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#Bar .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#DecibelCarrier .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#ActivityUnit .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#country-name .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/quantity#SystemOfQuantities_Planck .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#GigaHertz .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#FractionalArea .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#Farad .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#hasSource .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Zimbabwean_dollar .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#NASA-ARC-Attribution .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#BtuPerDegreeFahrenheit .
@@ -2817,13 +2691,11 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Farad .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/quantity#AreaAngle .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#InchOfWater .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#Gender .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/1.1/schema/quantity .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Time_Squared .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#USDollar-SameDay .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#MassPerTimeUnit .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://iirds.tekom.de/iirds#Document .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#hasCountryName .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#FootPerSecondSquared .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#ContinuumMechanicsQuantityKind .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#Pica .
@@ -2847,7 +2719,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Gilbert .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.linkedmodel.org/schema/vaem#dateCreated .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Lambert .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#category .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/quantity#PowerAreaPerSolidAngle .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Haitian_gourde .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#SquareMeter .
@@ -2881,9 +2752,7 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#pneumatic_pressure .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.linkedmodel.org/schema/vaem#hasGraphRole .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Mole_fraction .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#agent .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/quantity#EnergyPerElectricCharge .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#Me .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#CapeVerdeEscudo .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2002/07/owl#AnnotationProperty .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://purl.oclc.org/NET/ssnx/ssn#observationResult .
@@ -2915,7 +2784,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#TeslaMeter .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#MillimeterOfMercuryAbsolute .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://iirds.tekom.de/iirds#InformationType .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#hasRelated .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#dampening_form_roller .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#mounting_device .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#MillimeterOfMercury .
@@ -2926,7 +2794,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_SI_L2Θ-1 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Abfarad .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#ink_feed_roller .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#Voice .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/quantity#FirstMomentOfArea .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_CGS_L2M .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.linkedmodel.org/schema/dtype#literal .
@@ -2937,13 +2804,11 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Sierra_Leonean_leone .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#SpaceAndTimeQuantityKind .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#ErgPerSquareCentimeterSecond .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#TelephoneType .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Currency .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/ns/org#OrganizationalUnit .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_CGS_LMT-1 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#wasPlannedTask .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_CGS_LMT-2 .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#hasName .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.linkedmodel.org/1.2/schema/vaem .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#BiomedicalUnit .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#Nano .
@@ -2959,7 +2824,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#DegreeRankinePerHour .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#printing_cylinder .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/quantity#ElectricCurrentPerUnitEnergy .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2001/XMLSchema#dateTimeStamp .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#conversionOffset .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Debye .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/time#unitWeek .
@@ -2977,7 +2841,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/quantity#MassPerTime .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.linkedmodel.org/schema/vaem#CatalogEntry .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#GallonUS .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#hasTelephone .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://purl.oclc.org/NET/ssnx/ssn#deploymentProcessPart .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#LiquidPintUS .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_Planck_L-1MT-2 .
@@ -2988,10 +2851,8 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#PermittivityUnit .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#DegreeCelsiusPerMinute .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Djiboutian_franc .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#postal-code .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#JouleSecondPerMole .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#DegreeRankinePerMinute .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#hasEmail .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/ns/org#OrganizationalCollaboration .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#negativeDeltaLimit .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#print_job .
@@ -3006,10 +2867,8 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://iirds.tekom.de/iirds#iirdsRelationConcept .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#KilogramForcePerSquareCentimeter .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Molecular_mass .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#geo .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Vector_Θ10 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#Grade .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#Email .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.asahi-net.or.jp/~ax2s-kmtn/ .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Polish_z%C5%82oty .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.linkedmodel.org/schema/vaem#url .
@@ -3041,7 +2900,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2002/07/owl#onProperty .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#BtuPerHourSquareFoot .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_CGS_UT-1 .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#hasGender .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#CubicMeter .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Denier .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#quantityKind .
@@ -3058,7 +2916,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#referenceQuantity .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#PoundForceInch .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/ns/org#hasMembership .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#StraightPrintingPress .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.linkedmodel.org/schema/vaem#SchemaGraph .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#Centimeter .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Planck_units .
@@ -3091,7 +2948,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#AbsorbedDoseUnit .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#PoundForcePerInch .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#dampener-roller .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#rev .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Concentration .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#HourSidereal .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Saint_Helena_pound .
@@ -3107,7 +2963,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/quantity#Curvature .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#DegreeFahrenheit .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/quantity#EnergyPerSquareMagneticFluxDensity .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#given-name .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#CFAFrancBEAC .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#SystemOfUnits_SI .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_CGS-Gauss_L-1T2 .
@@ -3116,13 +2971,12 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#Abhenry .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#SerumOrPlasmaLevelUnit .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#Enumeration .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#Zloty .
+"0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/quantity#LengthPerUnitMagneticFlux .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/quantity#ThermalConductivity .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://voag.linkedmodel.org/schema/voag#hasLicenseType .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Special_Drawing_Rights .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#TruMatic1000fiber .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#MicroHenry .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_SI_L3M-1 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://purl.oclc.org/NET/ssnx/ssn#Latency .
@@ -3130,7 +2984,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Category:Thermodynamics .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.linkedmodel.org/schema/vaem#RulesGraph .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Pennyweight .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#value .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Estonian_kroon .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Grade .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#Acre .
@@ -3192,7 +3045,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#DegreeCelsiusPerHour .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/quantity#AreaThermalExpansion .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#MilAngle .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#Msg .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#MilliHenry .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step/0.3.0/ .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Namibian_dollar .
@@ -3211,16 +3063,15 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://iirds.tekom.de/iirds#requires-qualification .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#dampener_circulator .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Surinamese_dollar .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#region .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#powder_spray .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/quantity#SpecificHeatVolume .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#DigitalPrinting .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#photo .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://iirds.tekom.de/iirds#requires-time .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#EnumeratedValue .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Kilogram-force .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.loa-cnr.it/ontologies/DUL.owl#Process .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2001/XMLSchema#dateTime .
+"0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#print_press_bed_ .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#DimensionVector .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#PoundPerFoot .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#ThermalResistivityUnit .
@@ -3228,11 +3079,9 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://people.aifb.kit.edu/mu2771/step#temperature_setting .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/dimension#Dimension_MT-3Θ-4 .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Viscosity .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#anniversary .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Poise .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Temperature .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://iirds.tekom.de/iirds#InformationUnit .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#Parent .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Electrostatic_units .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#AtomicPhysicsQuantityKind .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Planck_density .
@@ -3245,7 +3094,6 @@
 "0"^^http://www.w3.org/2001/XMLSchema#float http://purl.org/dc/terms/language .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#Zetta .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/schema/qudt#Unit .
-"0"^^http://www.w3.org/2001/XMLSchema#float http://www.w3.org/2006/vcard/ns#adr .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://dbpedia.org/resource/Tera .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/unit#OunceTroy .
 "0"^^http://www.w3.org/2001/XMLSchema#float http://qudt.org/vocab/quantity#ElectricCurrentPerAngle .

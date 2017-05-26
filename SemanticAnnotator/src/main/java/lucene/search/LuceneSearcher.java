@@ -92,7 +92,7 @@ public class LuceneSearcher {
 		// 			start an autocomplete query 
 		//*********************************************************
 		searcher = new NodesSearcher(indexLocation);
-		Set<Pair<List<Node[]>, Float>> autocomplete_results = searcher.getResults(query + "*", 10);
+		List<Pair<List<Node[]>, Float>> autocomplete_results = searcher.getResults(query + "*", 20);
 		searcher.close();
 		//autocomplete_results = sortByValue(autocomplete_results);
 
@@ -109,12 +109,16 @@ public class LuceneSearcher {
 		//*********************************************************
 		// 			combine results 
 		//*********************************************************
-		MaxHashSet<Pair<List<Node[]>, Float>> results = new MaxHashSet<Pair<List<Node[]>, Float>>();
+//		MaxHashSet<Pair<List<Node[]>, Float>> results = new MaxHashSet<Pair<List<Node[]>, Float>>();
 //		results.addMaxAll(basic_results);
-		results.addMaxAll(autocomplete_results);
+//		results.addMaxAll(autocomplete_results);
 //		results.addMaxAll(fuzzy_results);
-		
+				
 		//results = MaxTreeMap.sortByValue(results);
+		
+		
+		List<Pair<List<Node[]>, Float>> results = new ArrayList<Pair<List<Node[]>, Float>>();
+		results.addAll(autocomplete_results);
 		
 
 		// RDF: (Subject, Predicate, Object) --> Node["Subject", "Predicate", "Object"]

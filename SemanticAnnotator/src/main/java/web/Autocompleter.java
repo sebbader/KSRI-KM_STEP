@@ -17,6 +17,7 @@ import javax.ws.rs.core.GenericEntity;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.UriInfo;
 
+import org.semanticweb.yars.jaxrs.JsonLDremoteContext;
 import org.semanticweb.yars.nx.BNode;
 import org.semanticweb.yars.nx.Literal;
 import org.semanticweb.yars.nx.Node;
@@ -68,6 +69,7 @@ public class Autocompleter {
 	 * @return
 	 */
 	@POST
+	//@JsonLDremoteContext("http://vocab.arvida.de/2016/04/workflow/arvida-wf-context.jsonld")
 	//@RedirectMissingTrailingSlash
 	public Response postResource(@PathParam("collection") String collection, @Context UriInfo uriinfo,
 			Iterable<Node[]> input) {

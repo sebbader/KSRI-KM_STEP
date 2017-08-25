@@ -10,6 +10,8 @@
 		<lucene.version>5.0.0</lucene.version>
 		<jetty.version>9.2.21.v20170120</jetty.version>
 		<!-- <nxparser.group>org.semanticweb.yars</nxparser.group> <nxparser.version>2.3.3</nxparser.version> -->
+		<nxparser.group>com.github.nxparser.nxparser</nxparser.group>
+		<nxparser.version>3dd34fc0fd1843614112e02fa048ba6aff82faa5</nxparser.version>
 		<nxparser.group>org.semanticweb.yars</nxparser.group>
 		<nxparser.version>3.0.0-SNAPSHOT</nxparser.version>
 	</properties>
@@ -98,8 +100,8 @@
 			</exclusion> <exclusion> <artifactId>slf4j-api</artifactId> <groupId>org.slf4j</groupId> 
 			</exclusion> </exclusions> </dependency> -->
 		<dependency>
-			<groupId>org.semanticweb.yars</groupId>
-			<version>3.0.1-SNAPSHOT</version>
+			<groupId>${nxparser.group}</groupId>
+			<version>${nxparser.version}</version>
 			<artifactId>nxparser-jax-rs</artifactId>
 		</dependency>
 		<dependency>

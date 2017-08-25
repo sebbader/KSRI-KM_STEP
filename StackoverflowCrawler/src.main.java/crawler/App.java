@@ -24,11 +24,15 @@ import org.apache.commons.lang.StringEscapeUtils;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpGet;
+import org.apache.http.client.methods.HttpPost;
+import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.HttpClientBuilder;
 import org.glassfish.jersey.client.ClientRequest;
 import org.glassfish.jersey.client.JerseyInvocation;
 import org.glassfish.jersey.message.internal.MessageBodyFactory;
+import org.json.JSONArray;
 import org.json.JSONObject;
+import org.jsoup.Jsoup;
 import org.semanticweb.yars.jaxrs.JsonLdMessageBodyReaderWriter;
 import org.semanticweb.yars.nx.BNode;
 import org.semanticweb.yars.nx.Node;
@@ -78,7 +82,7 @@ public class App {
 
 		// client macht seinen Call
 		HttpGet req = new HttpGet();
-		req.setURI(new URI("http://api.stackexchange.com/2.2/info?site=stackoverflow"));
+		req.setURI(new URI("http://api.stackexchange.com/2.2/questions?pagesize=10&order=desc&sort=creation&site=stackoverflow&filter=!-MOiNm40F1U6n0W_ddI6qTnlVA_avvcf_"));
 		req.setHeader("Accept", "application/json");
 
 		
@@ -97,12 +101,66 @@ public class App {
 		}
 		br.close();	
 		
-		JSONObject json = new JSONObject(data);
-	
-		//System.out.println(json.toString());
+		JSONObject jsonStack = new JSONObject(data);
+		JSONArray items = jsonStack.getJSONArray("items");
 		
-
-		// als rdf über return zurückgegeben
+		String[] questionStacks = new String[items.length()];
+		
+		for (int i = 0; i < items.length(); i++) {
+			JSONObject item = (JSONObject) items.get(i);
+			
+			System.out.println("New Question:");
+			System.out.println(item.toString() + "\n");
+			
+//			Frage wird von HTML Tags und Code-Fragmenten bereinigt
+			String questionStack = (String) item.get("body");
+		    String cleanQuestionStack = questionStack.replaceAll("<code>[\\w\\W]+</code>", "");
+			questionStacks[i] = Jsoup.parse(cleanQuestionStack).text();
+			System.out.println(questionStacks[i] + "\n");
+			item.put("body", questionStacks[i]);
+			
+			
+			//Frage wird als JSON ausgegeben
+			System.out.println(items.get(i).toString()+ "\n");
+			
+			
+			StringEntity params = new StringEntity(items.get(i).toString());
+			
+			//Sende Post Request an xDomain
+			HttpPost post = new HttpPost();
+			post.setURI(new URI("http://aifb-ls3-vm1.aifb.kit.edu:9080/nlp/stackoverflow/ner"));
+			post.setHeader("Content-type", "application/json");
+			post.setEntity(params);
+			
+			HttpResponse response2 = client.execute(post);
+			
+//			Mongo-Datenbankadresse wird ausgelesen
+			String location = response2.getHeaders("location")[0].getValue();
+			
+			System.out.println(location + "\n");
+			
+			
+//			Get-Reqeuest an die Datenbank senden
+			HttpGet getEntities = new HttpGet();
+			getEntities.setHeader("Accept", "application/json");
+			getEntities.setURI(new URI(location));
+			
+			HttpResponse responseEntites = client.execute(getEntities);
+			
+//			Response mit Entities auslesen
+			String entites = "";
+			InputStream bodies = responseEntites.getEntity().getContent();
+			BufferedReader rt = new BufferedReader(new InputStreamReader( bodies ) );
+			line = "";
+			while ((line = rt.readLine()) != null) {
+			    entites += line + "\n";
+			}
+			rt.close();	
+			
+			System.out.println(new JSONObject(entites).toString() + "\n\n");
+			
+		}
+		
 	}
 
 }

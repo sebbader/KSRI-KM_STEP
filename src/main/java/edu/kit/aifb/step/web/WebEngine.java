@@ -9,8 +9,9 @@ import javax.ws.rs.core.Application;
 import edu.kit.aifb.step.sensor.web.AdministrationShellWebAPI;
 import io.swagger.jaxrs.config.BeanConfig;
 
-@ApplicationPath(value = "/wrapper")
-public class WebEngine extends Application {
+//@ApplicationPath(value = "/wrapper")
+//public class WebEngine extends Application {
+	public class WebEngine {
 
 //	public WebEngine() {
 //		BeanConfig beanConfig = new BeanConfig();
@@ -21,16 +22,16 @@ public class WebEngine extends Application {
 //	}
 
 
-	@Override
-	public Set<Class<?>> getClasses() {
-		Set<Class<?>> resources = new HashSet<Class<?>>();
-		resources.add(AdministrationShellWebAPI.class);
+//	@Override
+//	public Set<Class<?>> getClasses() {
+//		Set<Class<?>> resources = new HashSet<Class<?>>();
+//		resources.add(AdministrationShellWebAPI.class);
 
 //		resources.add(io.swagger.jaxrs.listing.ApiListingResource.class);
 //		resources.add(io.swagger.jaxrs.listing.SwaggerSerializers.class);
 
-		return resources;
-	}
+//		return resources;
+//	}
 
 
 }

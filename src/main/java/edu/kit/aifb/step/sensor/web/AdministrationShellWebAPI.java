@@ -14,10 +14,11 @@ import io.swagger.annotations.Api;
  * @author sba
  *
  */
-@Path(value = "/sensor")
-@Api(value = "Sensor", description = "APIs the sensor")
-public class AdministrationShellWebAPI extends Application{
-	
+//@Path(value = "/sensor")
+//@Api(value = "Sensor", description = "APIs the sensor")
+//public class AdministrationShellWebAPI extends Application{
+public class AdministrationShellWebAPI {
+
 	WebAPIDescriptions description = new WebAPIDescriptions();
 	
 	@GET

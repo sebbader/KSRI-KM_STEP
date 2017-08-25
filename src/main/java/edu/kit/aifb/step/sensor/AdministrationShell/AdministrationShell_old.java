@@ -19,7 +19,6 @@ import org.apache.log4j.Logger;
 import edu.kit.aifb.step.StepLogger;
 import edu.kit.aifb.step.sensor.bluetoothlowenergy.CC2650Connector;
 import edu.kit.aifb.step.sensor.connector.DatabaseConnector;
-import edu.kit.aifb.step.sensor.connector.LinkedDataPlatformConnector;
 import edu.kit.aifb.step.sensor.converter.JsonConverter;
 
 public class AdministrationShell_old implements Observer {

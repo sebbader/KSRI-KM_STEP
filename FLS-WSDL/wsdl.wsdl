@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definitions targetNamespace="http://www.tourenserver.de/" xmlns:vt="http://www.tourenserver.de/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema elementFormDefault="qualified" targetNamespace="http://www.tourenserver.de/">
+      <xsd:import namespace="http://www.w3.org/2001/XMLSchema" />
+      <xsd:element name="error">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="source" type="xsd:string" />
+            <xsd:element name="description" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="Call">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="FunctionCode" type="xsd:int" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="Mandator" type="xsd:int" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="Agent" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="ExtID" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="VTID" type="xsd:int" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="CustomerExtID" type="xsd:string" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="Name" type="xsd:string" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="Name2" type="xsd:string" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="Title" type="xsd:string" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="ContactPerson" type="xsd:string" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="Phone1" type="xsd:string" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="Phone2" type="xsd:string" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="Email" type="xsd:string" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="CallInfo1" type="xsd:string" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="CallInfo2" type="xsd:string" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="Userfield1" type="xsd:string" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="Userfield2" type="xsd:string" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="Country" type="xsd:string" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="ZIP" type="xsd:string" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="City" type="xsd:string" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="District" type="xsd:string" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="Street" type="xsd:string" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="HNr" type="xsd:string" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="x" type="xsd:int" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="y" type="xsd:int" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="RegionID" type="xsd:string" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="AreaOfExpertiseID" type="xsd:string" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="TeamID" type="xsd:string" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="TaskTypeID" type="xsd:string" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="Servicetype" type="xsd:int" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="Priority" type="xsd:int" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="FixedFieldManagerID" type="xsd:string" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="ForbiddenFieldManagerID" type="xsd:string" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="PreferredFieldmanagerID" type="xsd:string" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="PreferredFieldmanagerID2" type="xsd:string" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="AllowedFieldmanagerIDs" type="xsd:string" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="ExternalProcessing" type="xsd:int" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="Skills" type="xsd:string" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="Units" type="xsd:int" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="DateFrom" type="xsd:dateTime" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="DateTo" type="xsd:dateTime" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="TimeFrom" type="xsd:dateTime" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="TimeTo" type="xsd:dateTime" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="OpeningHours" type="xsd:string" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="Weekday" type="xsd:string" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="TimeAttribute" type="xsd:string" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="Duration" type="xsd:int" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="Preparationtime" type="xsd:int" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="PostProcessing" type="xsd:int" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="SetupTime" type="xsd:int" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="SequenceGroup" type="xsd:int" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="ExtraPenalty" type="xsd:int" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="DelayPenalty" type="xsd:float" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="FixedDate" type="xsd:dateTime" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="State" type="xsd:int" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="MaxDetour" type="xsd:int" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="Reservationtime" type="xsd:int" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="ShowCall" type="xsd:string" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="SecondaryVisit" type="xsd:string" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="EquipmentNr" type="xsd:string" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="EquipmentName" type="xsd:string" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="Interruptible" type="xsd:int" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="MaxCost" type="xsd:int" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="MaxKm" type="xsd:int" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="CallResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="CallResult" type="xsd:int" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="VTID" type="xsd:int" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="InfoText" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="Appointments" type="vt:ArrayOfAppointment" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="FieldManager">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="FMVTID" type="xsd:int" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="FMExtID" type="xsd:string" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="Type" type="xsd:string" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="Active" type="xsd:boolean" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="Prename" type="xsd:string" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="Name" type="xsd:string" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="RegionID" type="xsd:string" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="AreaOfExpertiseID" type="xsd:string" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="TeamID" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="SCountry" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="SZIP" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="SCity" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="SDistrict" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="SStreet" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="SX" type="xsd:int" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="SY" type="xsd:int" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="SNID" type="xsd:int" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="ECountry" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="EZIP" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="ECity" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="EDistrict" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="EStreet" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="EX" type="xsd:int" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="EY" type="xsd:int" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="ENID" type="xsd:int" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="Info" type="xsd:string" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="Email" type="xsd:string" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="Phone" type="xsd:string" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="Mobile" type="xsd:string" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="Fax" type="xsd:string" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="LSkills" type="xsd:string" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="Capacity" type="xsd:int" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="SpeedPercent" type="xsd:int" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="WorkPercent" type="xsd:int" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="Overtime" type="xsd:int" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="CostDay" type="xsd:float" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="CostCall" type="xsd:float" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="CostKm" type="xsd:float" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="CostHour" type="xsd:float" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="CostHourOvertime" type="xsd:float" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="FieldManagerResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="FieldManagerResult" type="xsd:int" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="FMVTID" type="xsd:int" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="SX" type="xsd:int" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="SY" type="xsd:int" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="SNID" type="xsd:int" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="EX" type="xsd:int" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="EY" type="xsd:int" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="ENID" type="xsd:int" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="FixSchedule">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="0" maxOccurs="1" name="ExtID" type="xsd:string" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="VTID" type="xsd:int" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="Start" type="xsd:dateTime" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="End" type="xsd:dateTime" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="RegionID" type="xsd:string" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="TeamID" type="xsd:string" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="AreaOfExpertiseID" type="xsd:string" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="FMExtID" type="xsd:string" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="UnFix" type="xsd:boolean" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="ConfirmCalls" type="xsd:boolean" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="UnconfirmCalls" type="xsd:boolean" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="FixCalls" type="xsd:boolean" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="FixTime" type="xsd:boolean" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="FixNextCalls" type="xsd:int" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="Show" type="xsd:boolean" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="ShowReturn" type="xsd:boolean" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="FixScheduleResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="FixScheduleResult" type="vt:ArrayOfFixedCall" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="Geocode">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="Country" type="xsd:string" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="ZIP" type="xsd:string" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="City" type="xsd:string" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="District" type="xsd:string" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="Street" type="xsd:string" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="HNr" type="xsd:string" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="Fuzzy" type="xsd:boolean" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="CallSimulation" type="xsd:boolean" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="GeocodeResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="GeocodeResult" type="vt:ArrayOfGeoCodeRec" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="MobileMessage">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="0" maxOccurs="1" name="Mandator" type="xsd:int" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="Agent" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="FMExtID" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="TimeStamp" type="xsd:dateTime" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="MessageType" type="xsd:int" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="VTID" type="xsd:int" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="CallID" type="xsd:string" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="Duration" type="xsd:int" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="NewState" type="xsd:int" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="substate" type="xsd:int" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="Info" type="xsd:string" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="SearchNextCall" type="xsd:boolean" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="ScheduleNextCall" type="xsd:boolean" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="ScheduleCalls" type="xsd:int" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="SentCallExtIDs" type="xsd:string" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="SentCallVTIDs" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="MobileMessageResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="MobileMessageResult" type="xsd:int" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="NextCalls" type="vt:ArrayOfNextCall" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="ShowCallInfo">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="0" maxOccurs="1" name="VTID" type="xsd:int" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="ExtID" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="ShowCallInfoResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="ShowCallInfoResult" type="vt:CallInfoRec" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="WorkSchedule">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="0" maxOccurs="1" name="FMVTID" type="xsd:int" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="FMExtID" type="xsd:string" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="StartDate" type="xsd:dateTime" />
+            <xsd:element minOccurs="1" maxOccurs="1" name="EndDate" type="xsd:dateTime" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="StartTime" type="xsd:dateTime" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="EndTime" type="xsd:dateTime" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="StartLocation" type="xsd:int" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="EndLocation" type="xsd:int" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="Days" type="xsd:string" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="Type" type="xsd:int" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="Info" type="xsd:string" />
+            <xsd:element minOccurs="0" maxOccurs="1" name="Replanning" type="xsd:boolean" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="WorkScheduleResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="1" maxOccurs="1" name="WorkScheduleResult" type="xsd:int" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:complexType name="ArrayOfGeoCodeRec">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="GeoCodeRec" type="vt:GeoCodeRec" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="GeoCodeRec">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="Country" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="ZIP" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="City" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="District" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Street" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="HNr" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="HNr2" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Province" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="ProvShort" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="X" type="xsd:int" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Y" type="xsd:int" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="NID" type="xsd:int" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="GS" type="xsd:int" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ArrayOfAppointment">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="Appointment" type="vt:Appointment" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="Appointment">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="FunctionCode" type="xsd:int" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Status" type="xsd:int" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Date" type="xsd:dateTime" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Time" type="xsd:dateTime" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Detour" type="xsd:int" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="FMVTID" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="FMExtID" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Info" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Cost" type="xsd:float" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ArrayOfCallInfoRec">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="CallInfoRec" type="vt:CallInfoRec" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="CallInfoRec">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="ExtID" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="VTID" type="xsd:int" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="FMExtID" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="DateFrom" type="xsd:dateTime" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="DateTo" type="xsd:dateTime" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="TimeFrom" type="xsd:dateTime" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="TimeTo" type="xsd:dateTime" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Duration" type="xsd:int" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Date" type="xsd:dateTime" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Arrival" type="xsd:dateTime" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="DrivingTime" type="xsd:int" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Distance" type="xsd:int" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="State" type="xsd:int" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Sequence" type="xsd:int" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="CustomerID" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Name" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Name2" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Title" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="ContactPerson" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Phone1" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Phone2" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Country" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="ZIP" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="City" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Street" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="CallInfo1" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="CallInfo2" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="NotFound" type="xsd:int" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ArrayOfFixedCall">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="FixedCall" type="vt:FixedCall" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="FixedCall">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="ExtID" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="VTID" type="xsd:int" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Date" type="xsd:dateTime" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Arrival" type="xsd:dateTime" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="FMExtID" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Sequence" type="xsd:int" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Fixed" type="xsd:boolean" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="State" type="xsd:int" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="DrivingTime" type="xsd:int" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Distance" type="xsd:int" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Info" type="xsd:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ArrayOfNextCall">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="NextCall" type="vt:NextCall" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="NextCall">
+        <xsd:sequence>
+          <xsd:element minOccurs="1" maxOccurs="1" name="VTID" type="xsd:int" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="ExtID" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Status" type="xsd:int" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Country" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="ZIP" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="City" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="District" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Street" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="X" type="xsd:int" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Y" type="xsd:int" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Name1" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Name2" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Person" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Phone" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Fax" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Mobile" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Email" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="CallInfo1" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="CallInfo2" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Duration" type="xsd:int" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Units" type="xsd:int" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Skills" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="TaskTypeID" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="OrderTypeID" type="xsd:int" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="OrderType" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="AreaOfExpertiseID" type="xsd:string" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Priority" type="xsd:int" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="DateFrom" type="xsd:dateTime" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="DateTo" type="xsd:dateTime" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="TimeFrom" type="xsd:dateTime" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="TimeTo" type="xsd:dateTime" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Date" type="xsd:dateTime" />
+          <xsd:element minOccurs="1" maxOccurs="1" name="Time" type="xsd:dateTime" />
+        </xsd:sequence>
+      </xsd:complexType>
+    </xsd:schema>
+  </types>
+  <message name="CallSoapIn">
+    <part name="parameters" element="vt:Call" />
+  </message>
+  <message name="CallSoapOut">
+    <part name="parameters" element="vt:CallResponse" />
+  </message>
+  <message name="FieldManagerSoapIn">
+    <part name="parameters" element="vt:FieldManager" />
+  </message>
+  <message name="FieldManagerSoapOut">
+    <part name="parameters" element="vt:FieldManagerResponse" />
+  </message>
+  <message name="FixScheduleSoapIn">
+    <part name="parameters" element="vt:FixSchedule" />
+  </message>
+  <message name="FixScheduleSoapOut">
+    <part name="parameters" element="vt:FixScheduleResponse" />
+  </message>
+  <message name="GeocodeSoapIn">
+    <part name="parameters" element="vt:Geocode" />
+  </message>
+  <message name="GeocodeSoapOut">
+    <part name="parameters" element="vt:GeocodeResponse" />
+  </message>
+  <message name="MobileMessageSoapIn">
+    <part name="parameters" element="vt:MobileMessage" />
+  </message>
+  <message name="MobileMessageSoapOut">
+    <part name="parameters" element="vt:MobileMessageResponse" />
+  </message>
+  <message name="ShowCallInfoSoapIn">
+    <part name="parameters" element="vt:ShowCallInfo" />
+  </message>
+  <message name="ShowCallInfoSoapOut">
+    <part name="parameters" element="vt:ShowCallInfoResponse" />
+  </message>
+  <message name="WorkScheduleSoapIn">
+    <part name="parameters" element="vt:WorkSchedule" />
+  </message>
+  <message name="WorkScheduleSoapOut">
+    <part name="parameters" element="vt:WorkScheduleResponse" />
+  </message>
+  <portType name="VisiTourSoap">
+    <operation name="Call">
+      <input message="vt:CallSoapIn" />
+      <output message="vt:CallSoapOut" />
+    </operation>
+    <operation name="FieldManager">
+      <input message="vt:FieldManagerSoapIn" />
+      <output message="vt:FieldManagerSoapOut" />
+    </operation>
+    <operation name="FixSchedule">
+      <input message="vt:FixScheduleSoapIn" />
+      <output message="vt:FixScheduleSoapOut" />
+    </operation>
+    <operation name="Geocode">
+      <input message="vt:GeocodeSoapIn" />
+      <output message="vt:GeocodeSoapOut" />
+    </operation>
+    <operation name="MobileMessage">
+      <input message="vt:MobileMessageSoapIn" />
+      <output message="vt:MobileMessageSoapOut" />
+    </operation>
+    <operation name="ShowCallInfo">
+      <input message="vt:ShowCallInfoSoapIn" />
+      <output message="vt:ShowCallInfoSoapOut" />
+    </operation>
+    <operation name="WorkSchedule">
+      <input message="vt:WorkScheduleSoapIn" />
+      <output message="vt:WorkScheduleSoapOut" />
+    </operation>
+  </portType>
+  <binding name="VisiTourSoap" type="vt:VisiTourSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document" />
+    <operation name="Call">
+      <soap:operation soapAction="https://localhost:443/VTS/WS/Call" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="FieldManager">
+      <soap:operation soapAction="https://localhost:443/VTS/WS/FieldManager" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="FixSchedule">
+      <soap:operation soapAction="https://localhost:443/VTS/WS/FixSchedule" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="Geocode">
+      <soap:operation soapAction="https://localhost:443/VTS/WS/Geocode" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="MobileMessage">
+      <soap:operation soapAction="https://localhost:443/VTS/WS/MobileMessage" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="ShowCallInfo">
+      <soap:operation soapAction="https://localhost:443/VTS/WS/ShowCallInfo" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="WorkSchedule">
+      <soap:operation soapAction="https://localhost:443/VTS/WS/WorkSchedule" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="VisiTour">
+    <port name="VisiTourSoap" binding="vt:VisiTourSoap">
+      <soap:address location="https://localhost:443/VTS/WS/" />
+    </port>
+  </service>
+</definitions>

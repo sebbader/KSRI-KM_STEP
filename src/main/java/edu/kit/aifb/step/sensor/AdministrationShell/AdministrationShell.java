@@ -27,7 +27,6 @@ import edu.kit.aifb.step.SensorAccessMode;
 import edu.kit.aifb.step.StepLogger;
 import edu.kit.aifb.step.sensor.bluetoothlowenergy.CC2650Connector;
 import edu.kit.aifb.step.sensor.connector.DatabaseConnector;
-import edu.kit.aifb.step.sensor.connector.LinkedDataPlatformConnector;
 import edu.kit.aifb.step.sensor.converter.JsonConverter;
 
 public class AdministrationShell implements Observer {
@@ -65,7 +64,7 @@ public class AdministrationShell implements Observer {
 		StepLogger.getLogger().setLevel(config.getLogLevel());
 		
 		//this.connector = new VirtuosoConnector(dbServer, dbPort, dbUser, dbPwd, dbDataGraph);
-		this.connector = new LinkedDataPlatformConnector(config);
+//		this.connector = new LinkedDataPlatformConnector(config);
 		StepLogger.getLogger().trace("AdministrationShell started");
 	}
 

@@ -27,9 +27,9 @@ import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.HttpClientBuilder;
-import org.glassfish.jersey.client.ClientRequest;
-import org.glassfish.jersey.client.JerseyInvocation;
-import org.glassfish.jersey.message.internal.MessageBodyFactory;
+//import org.glassfish.jersey.client.ClientRequest;
+//import org.glassfish.jersey.client.JerseyInvocation;
+//import org.glassfish.jersey.message.internal.MessageBodyFactory;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.jsoup.Jsoup;
@@ -82,7 +82,7 @@ public class App {
 
 		// client macht seinen Call
 		HttpGet req = new HttpGet();
-		req.setURI(new URI("http://api.stackexchange.com/2.2/questions?pagesize=10&order=desc&sort=creation&site=stackoverflow&filter=!-MOiNm40F1U6n0W_ddI6qTnlVA_avvcf_"));
+		req.setURI(new URI("http://api.stackexchange.com/2.2/questions?pagesize=10&order=desc&sort=creation&site=stackoverflow&filter=!-MOiNm40F1U6n0W_ddI6qTnlVA_avvcf_&key=UD1r0MHBsSgNCXkO0Ek5Tg(("));
 		req.setHeader("Accept", "application/json");
 
 		
@@ -157,7 +157,19 @@ public class App {
 			}
 			rt.close();	
 			
-			System.out.println(new JSONObject(entites).toString() + "\n\n");
+			JSONObject jsonEntities = new JSONObject(entites);
+			StringEntity paramsLDP = new StringEntity(jsonEntities.toString());
+			System.out.println(jsonEntities.toString() + "\n\n");
+			
+			
+//			Post auf LDP Datenbank
+			HttpPost postLDP = new HttpPost();
+			postLDP.setURI(new URI("http://aifb-ls3-vm1.aifb.kit.edu:8080/marmotta/ldp/StackOverflow"));
+			postLDP.setHeader("Content-type", "application/ld+json");
+			postLDP.setHeader("Slug", "StackoverflowQuestion");
+			postLDP.setEntity(paramsLDP);
+			
+			HttpResponse responseLDP = client.execute(postLDP);
 			
 		}
 		

@@ -1,4 +1,4 @@
-package main.java.namespaces;
+package namespaces;
 
 import org.semanticweb.yars.nx.Node;
 import org.semanticweb.yars.nx.Resource;

@@ -1,4 +1,4 @@
-package main.java.bridgepattern;
+package bridgepattern;
 
 public class BridgePatternSearcher {
 

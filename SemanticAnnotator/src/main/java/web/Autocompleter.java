@@ -1,4 +1,4 @@
-package main.java.web;
+package web;
 
 import java.io.File;
 import java.io.IOException;
@@ -26,8 +26,8 @@ import org.semanticweb.yars.nx.dt.string.XsdString;
 import org.semanticweb.yars.nx.namespace.RDF;
 import org.semanticweb.yars.nx.namespace.RDFS;
 
-import main.java.lucene.search.LuceneSearcher;
-import main.java.namespaces.STEP;
+import lucene.search.LuceneSearcher;
+import namespaces.STEP;
 
 
 @Path("/autocomplete")

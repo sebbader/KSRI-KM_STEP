@@ -1,4 +1,4 @@
-package main.java.lucene.search;
+package lucene.search;
 
 import java.util.Collection;
 import java.util.HashSet;

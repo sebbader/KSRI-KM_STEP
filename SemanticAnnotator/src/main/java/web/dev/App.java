@@ -1,4 +1,4 @@
-package main.java.web.dev;
+package web.dev;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
@@ -35,7 +35,7 @@ import org.semanticweb.yars.nx.Node;
 import org.semanticweb.yars.nx.Resource;
 import org.semanticweb.yars.nx.namespace.RDF;
 
-import main.java.namespaces.STEP;
+import namespaces.STEP;
 
 public class App {
 

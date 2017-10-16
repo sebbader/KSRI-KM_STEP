@@ -2,18 +2,23 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>edu.kit.aifb</groupId>
-	<artifactId>SemanticAnnotator</artifactId>
+	<artifactId>StackoverflowCrawler</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
-
 
 	<properties>
 		<rdf4j.version>2.2</rdf4j.version>
 		<lucene.version>5.0.0</lucene.version>
 		<jetty.version>9.2.21.v20170120</jetty.version>
 		<!-- <nxparser.group>org.semanticweb.yars</nxparser.group> <nxparser.version>2.3.3</nxparser.version> -->
+		<nxparser.group>com.github.nxparser.nxparser</nxparser.group>
+		<nxparser.version>3dd34fc0fd1843614112e02fa048ba6aff82faa5</nxparser.version>
+<<<<<<< HEAD
+		<!-- <nxparser.group>org.semanticweb.yars</nxparser.group>
+		<nxparser.version>3.0.0-SNAPSHOT</nxparser.version> -->
+=======
 		<nxparser.group>org.semanticweb.yars</nxparser.group>
 		<nxparser.version>3.0.0-SNAPSHOT</nxparser.version>
+>>>>>>> 01501402355fb1218fd81e8ad8644de422019be8
 	</properties>
 
 
@@ -25,12 +30,23 @@
 	</repositories>
 
 
+	<build>
+		<sourceDirectory>src.main.java</sourceDirectory>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.5.1</version>
+				<configuration>
+					<source />
+					<target />
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+
 
 	<dependencies>
-
-		<!-- Jersey modules for RESTful interface <dependency> <groupId>com.sun.jersey</groupId> 
-			<artifactId>jersey-bundle</artifactId> <version>1.19</version> </dependency> -->
-
 		<!-- Servlet modules for RESTful interface -->
 		<dependency>
 			<groupId>javax.servlet</groupId>
@@ -62,7 +78,24 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
+		<dependency>
+			<groupId>org.glassfish.jersey.media</groupId>
+			<artifactId>jersey-media-json-jackson</artifactId>
+			<version>2.22</version>
+		</dependency>
 
+
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20140107</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/commons-lang/commons-lang -->
+		<dependency>
+			<groupId>commons-lang</groupId>
+			<artifactId>commons-lang</artifactId>
+			<version>2.6</version>
+		</dependency>
 
 		<!-- -->
 		<!-- <dependency> <groupId>${nxparser.group}</groupId> <artifactId>nxparser-jax-rs</artifactId> 
@@ -72,8 +105,8 @@
 			</exclusion> <exclusion> <artifactId>slf4j-api</artifactId> <groupId>org.slf4j</groupId> 
 			</exclusion> </exclusions> </dependency> -->
 		<dependency>
-			<groupId>org.semanticweb.yars</groupId>
-			<version>3.0.1-SNAPSHOT</version>
+			<groupId>${nxparser.group}</groupId>
+			<version>${nxparser.version}</version>
 			<artifactId>nxparser-jax-rs</artifactId>
 		</dependency>
 		<dependency>
@@ -94,74 +127,5 @@
 			<version>${nxparser.version}</version>
 			<scope>compile</scope>
 		</dependency>
-
-
-
-		<!-- https://mvnrepository.com/artifact/org.apache.jena/jena-core -->
-		<dependency>
-			<groupId>org.apache.jena</groupId>
-			<artifactId>jena-core</artifactId>
-			<version>3.2.0</version>
-		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.apache.jena/jena-jdbc-core -->
-		<dependency>
-			<groupId>org.apache.jena</groupId>
-			<artifactId>jena-jdbc-core</artifactId>
-			<version>3.2.0</version>
-		</dependency>
-
-
-		<dependency>
-			<groupId>org.json</groupId>
-			<artifactId>json</artifactId>
-			<version>20140107</version>
-		</dependency>
-		<dependency>
-			<groupId>com.github.jsonld-java</groupId>
-			<artifactId>jsonld-java</artifactId>
-			<version>0.10.0</version>
-		</dependency>
-		<dependency>
-			<groupId>com.github.jsonld-java</groupId>
-			<artifactId>jsonld-java</artifactId>
-			<version>0.10.0</version>
-		</dependency>
-
-
-
-		<dependency>
-			<groupId>nxindexer</groupId>
-			<artifactId>nxindexer</artifactId>
-			<version>0.0.2-SNAPSHOT</version>
-		</dependency>
-
-
-		<dependency>
-			<groupId>virtuoso</groupId>
-			<artifactId>virt-jena</artifactId>
-			<version>3</version>
-		</dependency>
 	</dependencies>
-
-
-	<build>
-		<plugins>
-			<plugin>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.5.1</version>
-				<configuration>
-					<source>1.8</source>
-					<target>1.8</target>
-				</configuration>
-			</plugin>
-			<plugin>
-				<artifactId>maven-war-plugin</artifactId>
-				<version>2.6</version>
-				<configuration>
-					<!-- <warSourceDirectory>WebContent</warSourceDirectory> -->
-				</configuration>
-			</plugin>
-		</plugins>
-	</build>
-
 </project>

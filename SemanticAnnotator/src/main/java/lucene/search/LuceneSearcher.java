@@ -1,4 +1,4 @@
-package main.java.lucene.search;
+package lucene.search;
 
 import java.io.IOException;
 import java.net.URI;
@@ -24,7 +24,7 @@ import org.semanticweb.yars.nx.dt.numeric.XsdFloat;
 import com.ontologycentral.nxindexer.keyword.KeywordSearcher;
 import com.ontologycentral.nxindexer.nodes.NodesSearcher;
 
-import main.java.namespaces.STEP;
+import namespaces.STEP;
 
 
 public class LuceneSearcher {

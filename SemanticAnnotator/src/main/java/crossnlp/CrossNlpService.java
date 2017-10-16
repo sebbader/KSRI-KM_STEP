@@ -1,4 +1,4 @@
-package main.java.crossnlp;
+package crossnlp;
 
 import java.io.BufferedReader;
 import java.io.DataOutputStream;

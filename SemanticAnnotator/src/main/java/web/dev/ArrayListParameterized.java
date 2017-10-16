@@ -1,4 +1,4 @@
-package main.java.web.dev;
+package web.dev;
 
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;

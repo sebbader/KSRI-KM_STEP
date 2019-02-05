@@ -487,7 +487,7 @@
   <binding name="VisiTourSoap" type="vt:VisiTourSoap">
     <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document" />
     <operation name="Call">
-      <soap:operation soapAction="https://STEP:STEP@step.fastleansmart.com/VTS/WS/ShowCallInfo:443/VTS/WS/Call" style="document" />
+      <soap:operation soapAction="https://$$$$:$$$$@step.fastleansmart.com/VTS/WS/ShowCallInfo:443/VTS/WS/Call" style="document" />
       <input>
         <soap:body use="literal" />
       </input>
@@ -496,7 +496,7 @@
       </output>
     </operation>
     <operation name="FieldManager">
-      <soap:operation soapAction="https://STEP:STEP@step.fastleansmart.com/VTS/WS/ShowCallInfo:443/VTS/WS/FieldManager" style="document" />
+      <soap:operation soapAction="https://$$$$:$$$$@step.fastleansmart.com/VTS/WS/ShowCallInfo:443/VTS/WS/FieldManager" style="document" />
       <input>
         <soap:body use="literal" />
       </input>
@@ -505,7 +505,7 @@
       </output>
     </operation>
     <operation name="FixSchedule">
-      <soap:operation soapAction="https://STEP:STEP@step.fastleansmart.com/VTS/WS/ShowCallInfo:443/VTS/WS/FixSchedule" style="document" />
+      <soap:operation soapAction="https://$$$$:$$$$@step.fastleansmart.com/VTS/WS/ShowCallInfo:443/VTS/WS/FixSchedule" style="document" />
       <input>
         <soap:body use="literal" />
       </input>
@@ -514,7 +514,7 @@
       </output>
     </operation>
     <operation name="Geocode">
-      <soap:operation soapAction="https://STEP:STEP@step.fastleansmart.com/VTS/WS/ShowCallInfo:443/VTS/WS/Geocode" style="document" />
+      <soap:operation soapAction="https://$$$$:$$$$@step.fastleansmart.com/VTS/WS/ShowCallInfo:443/VTS/WS/Geocode" style="document" />
       <input>
         <soap:body use="literal" />
       </input>
@@ -523,7 +523,7 @@
       </output>
     </operation>
     <operation name="MobileMessage">
-      <soap:operation soapAction="hhttps://STEP:STEP@step.fastleansmart.com/VTS/WS/ShowCallInfo:443/VTS/WS/MobileMessage" style="document" />
+      <soap:operation soapAction="hhttps://$$$$:$$$$@step.fastleansmart.com/VTS/WS/ShowCallInfo:443/VTS/WS/MobileMessage" style="document" />
       <input>
         <soap:body use="literal" />
       </input>
@@ -532,7 +532,7 @@
       </output>
     </operation>
     <operation name="ShowCallInfo">
-      <soap:operation soapAction="https://STEP:STEP@step.fastleansmart.com/VTS/WS/ShowCallInfo:443/VTS/WS/ShowCallInfo" style="document" />
+      <soap:operation soapAction="https://$$$$:$$$$@step.fastleansmart.com/VTS/WS/ShowCallInfo:443/VTS/WS/ShowCallInfo" style="document" />
       <input>
         <soap:body use="literal" />
       </input>
@@ -541,7 +541,7 @@
       </output>
     </operation>
     <operation name="WorkSchedule">
-      <soap:operation soapAction="https://STEP:STEP@step.fastleansmart.com/VTS/WS/ShowCallInfo:443/VTS/WS/WorkSchedule" style="document" />
+      <soap:operation soapAction="https://$$$$:$$$$@step.fastleansmart.com/VTS/WS/ShowCallInfo:443/VTS/WS/WorkSchedule" style="document" />
       <input>
         <soap:body use="literal" />
       </input>
@@ -552,7 +552,7 @@
   </binding>
   <service name="VisiTour">
     <port name="VisiTourSoap" binding="vt:VisiTourSoap">
-      <soap:address location="https://STEP:STEP@step.fastleansmart.com/VTS/WS/ShowCallInfo:443/VTS/WS/" />
+      <soap:address location="https://$$$$:$$$$@step.fastleansmart.com/VTS/WS/ShowCallInfo:443/VTS/WS/" />
     </port>
   </service>
 </definitions>
